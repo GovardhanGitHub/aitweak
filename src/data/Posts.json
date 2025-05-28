@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "slug": "ai-revolutionizing-traffic-management",
+        "image": "01.webp",
+        "bannerImg": "/assets/images/blog/01.webp",
+        "category": "Smart Cities",
+        "title": "How AI is Revolutionizing Traffic Management Systems",
+        "author": "Govardhan",
+        "publishedDate": "28 May, 2025",
+        "descripTion": "Artificial Intelligence is transforming urban mobility through intelligent traffic management systems. From adaptive signal control to predictive congestion analysis, AI algorithms are reducing travel times by up to 30% and significantly decreasing fuel consumption in major cities worldwide."
+    },
+    {
+        "id": 2,
+        "slug": "ai-medical-diagnosis-breakthroughs",
+        "image": "02.webp",
+        "bannerImg": "/assets/images/blog/02.webp",
+        "category": "Healthcare Technology",
+        "title": "AI's Breakthrough in Medical Diagnosis and Treatment",
+        "author": "Govardhan",
+        "publishedDate": "28 May, 2025",
+        "descripTion": "Machine learning models are achieving remarkable accuracy in medical imaging, detecting cancer cells earlier than traditional methods. AI-powered diagnostic tools are now helping doctors identify diseases like diabetic retinopathy and pneumonia with over 95% accuracy, potentially saving millions of lives globally."
+    },
+    {
+        "id": 3,
+        "slug": "ai-industrial-automation-efficiency",
+        "image": "03.webp",
+        "bannerImg": "/assets/images/blog/03.webp",
+        "category": "Industrial Innovation",
+        "title": "AI-Driven Industrial Automation Boosting Manufacturing Efficiency",
+        "author": "Govardhan",
+        "publishedDate": "28 May, 2025",
+        "descripTion": "Smart factories powered by AI are revolutionizing manufacturing processes through predictive maintenance, quality control, and supply chain optimization. Companies implementing AI-driven automation report 40% reduction in downtime and 25% increase in overall equipment effectiveness."
+    },
+    {
+        "id": 4,
+        "slug": "ai-mining-safety-optimization",
+        "image": "14.webp",
+        "bannerImg": "/assets/images/blog/14.webp",
+        "category": "Mining Technology",
+        "title": "AI Transforming Mining Operations: Safety and Optimization",
+        "author": "Govardhan",
+        "publishedDate": "28 May, 2025",
+        "descripTion": "Artificial Intelligence is making mining operations safer and more efficient through autonomous vehicles, real-time hazard detection, and predictive analytics. AI systems can now predict equipment failures weeks in advance and identify potential safety risks, reducing mining accidents by up to 50%."
+    },
+    {
+        "id": 5,
+        "slug": "ai-agriculture-crop-optimization",
+        "image": "15.webp",
+        "bannerImg": "/assets/images/blog/15.webp",
+        "category": "Agricultural Technology",
+        "title": "AI in Agriculture: Optimizing Crop Yields and Sustainable Farming",
+        "author": "Govardhan",
+        "publishedDate": "28 May, 2025",
+        "descripTion": "Precision agriculture powered by AI is helping farmers maximize crop yields while minimizing resource usage. Computer vision and IoT sensors enable real-time monitoring of crop health, soil conditions, and weather patterns, leading to 20% increase in productivity and 30% reduction in water consumption."
+    },
+    {
+        "id": 6,
+        "slug": "ai-financial-fraud-detection",
+        "image": "16.webp",
+        "bannerImg": "/assets/images/blog/16.webp",
+        "category": "Financial Technology",
+        "title": "AI-Powered Fraud Detection: Securing Financial Transactions",
+        "author": "Govardhan",
+        "publishedDate": "28 May, 2025",
+        "descripTion": "Advanced machine learning algorithms are revolutionizing financial security by detecting fraudulent transactions in real-time. AI systems analyze millions of transaction patterns simultaneously, identifying suspicious activities with 99.7% accuracy while reducing false positives by 80%, protecting billions of dollars annually."
+    }
+]
