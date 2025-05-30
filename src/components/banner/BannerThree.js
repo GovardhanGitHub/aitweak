@@ -19,7 +19,7 @@ function BannerThree() {
           <div className="row">
             <div className="col-lg-6">
               <div className="banner-three-wrapper">
-                <span className="pre-title" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">IT Solutions Experts</span>
+                <span className="pre-title" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000"> AI solutions Experts</span>
                 <h1 className="title" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Revolutionize Purpose-driven Solutions</h1>
               </div>
             </div>

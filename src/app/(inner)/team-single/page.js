@@ -26,7 +26,7 @@ export default function Home() {
                         <div className="cta-two-wrapper">
                             <div className="inner">
                                 <h2 className="title">Let’s schedule a Free consultation</h2>
-                                <p>Offers a 30-day free trial of Luminous Managed IT Services.</p>
+                                <p>Offers a 30-day free trial of AITweak Managed IT Services.</p>
                                 <a
                                     href="#"
                                     className="rts-btn btn-primary wow fadeInUp"

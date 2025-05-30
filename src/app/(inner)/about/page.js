@@ -16,15 +16,15 @@ export default function Home() {
     return (
         <div className='#'>
             <HeaderOne />
-            <AboutBanner />
-            <Wedo />
+            {/* <AboutBanner />
             <FeatureOne />
-            <FeatureTwo />
+            <FeatureTwo /> */}
+            <Wedo />
             <ServiceSix />
-            <PricingFour />
+            {/* <PricingFour />
             <BrandTwo />
             <TestimonialsThree />
-            <CtaFour />
+            <CtaFour /> */}
             <FooterOne />
             <BackToTop />
         </div>

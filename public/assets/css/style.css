@@ -14414,12 +14414,12 @@ li.has-dropdown:hover .submenu {
 }
 
 .container-pricing {
-  max-width: 768px;
+  max-width: 968px;
   margin: auto;
 }
 
 .single-pricing-area {
-  padding: 64px;
+  padding: 44px;
   border-right: 1px solid #D1D1D1;
   border-top: 1px solid #D1D1D1;
   border-bottom: 1px solid #D1D1D1;

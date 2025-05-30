@@ -18,7 +18,7 @@ function ServiceSix() {
                         <div className="col-lg-12">
                             <div className="title-area-center-inner-with-sub">
                                 <span>Our services</span>
-                                <h2 className="title">Cutting-edge IT Solutions</h2>
+                                <h2 className="title">Cutting-edge  AI solutions</h2>
                                 <p className="disc">
                                     Offers a unified platform that fosters innovation while providing
                                     end-to-end data management. See how we help your team solve

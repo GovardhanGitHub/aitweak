@@ -3,101 +3,119 @@ import React from "react";
 import { useEffect } from "react";
 import Rellax from "rellax";
 import AOS from "aos";
-import { ReactSVG } from 'react-svg';
+import { ReactSVG } from "react-svg";
 import "aos/dist/aos.css";
-function BannerOne() {
-    useEffect(() => {
-        if (typeof window !== "undefined") {
-            new Rellax(".rellax", { speed: -1 });
-        }
-    }, []);
-    useEffect(() => {
-        AOS.init({
-            disableMutationObserver: true,
-            once: true,
-        });
-    }, []);
-    return (
-        <div>
-            <div className="rts-banner-area-start">
-                <div className="container">
-                    <div className="row align-items-center">
-                        {/* Left Content */}
-                        <div className="col-lg-5">
-                            <div className="banner-wrapper-one">
-                                <span className="pre-title" data-aos="fade-up" data-aos-duration="1000">Meet Luminos</span>
-                                <h1 className="title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                                    IT solutions <br /> for a <span>growing </span>
-                                    businesses
-                                </h1>
-                                <p data-aos="fade-up" data-aos-delay="500">
-                                    Empowering enterprises with innovative technology to stay
-                                    ahead in the digital age
-                                </p>
-                                <a
-                                    href="service.html"
-                                    className="rts-btn btn-primary" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700"
-                                >
-                                    View Solutions
-                                    <ReactSVG
-                                        className="injectable"
-                                        src="assets/images/banner/01.svg"
-                                        alt="icons"
-                                    />
-                                </a>
-                            </div>
-                        </div>
 
-                        {/* Right Content */}
-                        <div className="col-lg-7">
-                            <div className="right-clippath-wrapper d-flex">
-                                <div
-                                    className="left-image mt--120 mt_sm--70 jara-mask-1"
-                                    data-speed=".7"
-                                >
-                                    <img
-                                        loading="lazy"
-                                        rel="preload"
-                                        className="jarallax-img rellax"
-                                        src="assets/images/gimages/pexels-googledeepmind-25626508.jpg"
-                                        alt="banner"
-                                    />
-                                </div>
-                                <div
-                                    className="left-image jara-mask-1"
-                                    data-speed=".7"
-                                >
-                                    <img
-                                        loading="lazy"
-                                        rel="preload"
-                                        className="jarallax-img rellax"
-                                        src="assets/images/banner/09.webp"
-                                        alt="banner"
-                                    />
-                                </div>
-                                <div className="shape-image">
-                                    <img
-                                        loading="lazy"
-                                        rel="preload"
-                                        src="assets/images/banner/shape/01.png"
-                                        alt="shape"
-                                        className="one wow move-left"
-                                    />
-                                    <img
-                                        loading="lazy"
-                                        rel="preload"
-                                        src="assets/images/banner/shape/02.png"
-                                        alt="shape"
-                                        className="two wow move-left"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+function BannerOne() {
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      new Rellax(".rellax", { speed: -1 });
+    }
+  }, []);
+
+  useEffect(() => {
+    AOS.init({
+      disableMutationObserver: true,
+      once: true,
+    });
+  }, []);
+
+  return (
+    <div>
+      <div className="rts-banner-area-start">
+        <div className="container">
+          <div className="row align-items-center">
+            {/* Left Content */}
+            <div className="col-lg-5">
+              <div className="banner-wrapper-one">
+                <span
+                  className="pre-title"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
+                  Meet AITweak
+                </span>
+                <h1
+                  className="title"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="300"
+                >
+                  AI Solutions <br />
+                  for <span>Intelligent</span>
+                  <br />
+                  Businesses
+                </h1>
+                <p data-aos="fade-up" data-aos-delay="500">
+                  Transforming enterprises with cutting-edge artificial
+                  intelligence and machine learning solutions to drive
+                  innovation and unlock unprecedented business potential.
+                </p>
+                <a
+                  href="https://chat.aitweak.co/"
+                  className="rts-btn btn-primary"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="700"
+                >
+                  try chatGPT{" "}
+                  <ReactSVG
+                    className="injectable"
+                    src="assets/images/banner/01.svg"
+                    alt="arrow icon"
+                  />
+                </a>
+              </div>
             </div>
+
+            {/* Right Content */}
+            <div className="col-lg-7">
+              <div className="right-clippath-wrapper d-flex">
+                <div
+                  className="left-image mt--120 mt_sm--70 jara-mask-1"
+                  data-speed=".7"
+                >
+                  <img
+                    loading="lazy"
+                    rel="preload"
+                    className="jarallax-img rellax"
+                    src="assets/images/gimages/pexels-googledeepmind-25626508.jpg"
+                    alt="AI Neural Networks and Deep Learning Technology"
+                  />
+                </div>
+                <div className="left-image jara-mask-1" data-speed=".7">
+                  <img
+                    loading="lazy"
+                    rel="preload"
+                    className="jarallax-img rellax"
+                    src="assets/images/gimages/chess_robot.jpg"
+                    alt="AI Robotics and Intelligent Automation"
+                  />
+                </div>
+
+                <div className="shape-image">
+                  <img
+                    loading="lazy"
+                    rel="preload"
+                    src="assets/images/banner/shape/01.png"
+                    alt="AI circuit pattern shape"
+                    className="one wow move-left"
+                  />
+                  <img
+                    loading="lazy"
+                    rel="preload"
+                    src="assets/images/banner/shape/02.png"
+                    alt="AI technology shape"
+                    className="two wow move-left"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    );
+      </div>
+    </div>
+  );
 }
 
 export default BannerOne;

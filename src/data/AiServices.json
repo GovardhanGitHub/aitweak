@@ -1,0 +1,179 @@
+{
+  "aiServices": [
+    {
+      "id": 1,
+      "title": "Machine Learning",
+      "slug": "machine-learning",
+      "icon": "assets/images/service/icons/22.svg",
+      "description": "Unleash the future with ML that turns data into predictive power and seamless automation.",
+      "category": "core",
+      "serviceDetails": {
+        "overview": "From Bengaluru’s tech heart, AiTweak’s machine learning solutions transform raw data into your business’s superpower. Our advanced algorithms drive predictive analytics, automate critical decisions, and craft intelligent strategies that evolve with your goals, giving you an edge in a data-driven world.",
+        "approach": "We blend supervised and unsupervised learning with deep neural networks, tailored to your unique data landscape. Our agile, iterative process ensures models adapt dynamically, delivering precision and scalability for industries from fintech to healthcare.",
+        "benefits": "Skyrocket prediction accuracy by 85%, slash operational costs by 40%, and unlock competitive advantages with real-time, data-driven insights. Our ML solutions empower smarter decisions, faster growth, and innovation that sets you apart."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Deep Learning",
+      "slug": "deep-learning",
+      "icon": "assets/images/service/icons/23.svg",
+      "description": "Master complexity with neural networks that redefine AI possibilities.",
+      "category": "core",
+      "serviceDetails": {
+        "overview": "In Bengaluru’s innovation hub, AiTweak’s deep learning expertise unlocks AI’s full potential. Our neural networks tackle intricate challenges like image recognition and language understanding, powering autonomous systems and transformative applications across industries.",
+        "approach": "Using multi-layered neural architectures, convolutional networks, and transformer models, we process vast unstructured datasets to uncover patterns invisible to traditional methods. Our solutions are built for precision, scalability, and real-world impact.",
+        "benefits": "Achieve 95% accuracy in pattern recognition, process complex data at scale, and lead the charge in computer vision and NLP innovations. From autonomous systems to intelligent analytics, our deep learning solutions drive your business forward."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Computer Vision",
+      "slug": "computer-vision-service",
+      "icon": "assets/images/service/icons/24.svg",
+      "description": "See the world anew with AI that transforms visuals into actionable intelligence.",
+      "category": "core",
+      "serviceDetails": {
+        "overview": "AiTweak, rooted in Bengaluru’s tech ecosystem, brings computer vision that redefines automation. Our AI analyzes images, videos, and live feeds to power quality control, security, and inspections, turning visual data into your strategic advantage.",
+        "approach": "We integrate convolutional neural networks, object detection, and real-time processing to deliver pinpoint accuracy. Our solutions are customized for seamless integration, ensuring robust performance in manufacturing, retail, and beyond.",
+        "benefits": "Slash inspection times by 80%, achieve 99% defect detection accuracy, and enable 24/7 automated monitoring. Our vision solutions enhance quality, boost efficiency, and empower industries with smarter, faster operations."
+      }
+    },
+    {
+      "id": 4,
+      "title": "Natural Language Processing",
+      "slug": "natural-language-processing",
+      "icon": "assets/images/service/icons/25.svg",
+      "description": "Connect humans and machines with intelligent language solutions.",
+      "category": "advanced",
+      "serviceDetails": {
+        "overview": "From Bengaluru’s vibrant tech scene, AiTweak’s NLP solutions make communication effortless. Our AI understands, interprets, and generates human language, powering chatbots, document automation, and content insights for unparalleled customer and operational efficiency.",
+        "approach": "We leverage transformer models, sentiment analysis, and advanced language generation to create intuitive systems. Whether it’s multilingual chatbots or automated document processing, our NLP adapts to your business’s unique voice and needs.",
+        "benefits": "Automate 90% of customer queries, process documents 10x faster, and enable real-time translation and sentiment analysis. Our NLP solutions drive engagement, streamline workflows, and unlock deeper insights from text."
+      }
+    },
+    {
+      "id": 5,
+      "title": "AI Consulting",
+      "slug": "ai-consulting-service",
+      "icon": "assets/images/service/icons/26.svg",
+      "description": "Chart your AI journey with strategic expertise from Bengaluru’s AI pioneers.",
+      "category": "advanced",
+      "serviceDetails": {
+        "overview": "AiTweak, born in India’s Silicon Valley, offers AI consulting that transforms vision into reality. Our experts craft bespoke strategies, roadmaps, and implementation plans to embed AI seamlessly into your business, driving innovation and growth.",
+        "approach": "We combine deep business analysis, cutting-edge tech assessments, and agile planning to align AI with your goals. From startups to enterprises, our consulting ensures measurable outcomes and a future-proof strategy.",
+        "benefits": "Reduce implementation risks by 60%, accelerate market entry by 50%, and ensure compliance while maximizing ROI. Our guidance empowers you to lead with AI, confidently and effectively."
+      }
+    },
+    {
+      "id": 6,
+      "title": "Intelligent Automation",
+      "slug": "intelligent-automation-service",
+      "icon": "assets/images/service/icons/27.svg",
+      "description": "Revolutionize workflows with AI-driven automation that adapts and scales.",
+      "category": "advanced",
+      "serviceDetails": {
+        "overview": "AiTweak, from Bengaluru’s tech core, delivers intelligent automation that redefines efficiency. By fusing robotic process automation (RPA) with AI, we create adaptive workflows that handle complex processes, freeing your team for innovation.",
+        "approach": "Our platform integrates RPA with ML, NLP, and computer vision to automate end-to-end processes. From exception handling to dynamic scaling, our solutions are designed for resilience and real-time adaptability.",
+        "benefits": "Cut manual processing by 75%, manage complex decisions effortlessly, and scale operations 24/7. Our automation solutions boost productivity, reduce errors, and empower your business to thrive."
+      }
+    },
+    {
+      "id": 7,
+      "title": "Predictive Analytics",
+      "slug": "predictive-analytics",
+      "icon": "assets/images/service/icons/28.svg",
+      "description": "Shape the future with data-driven forecasts that drive success.",
+      "category": "specialized",
+      "serviceDetails": {
+        "overview": "In Bengaluru’s innovation hotspot, AiTweak’s predictive analytics empower proactive decisions. Our AI forecasts trends, customer behavior, and market shifts, giving you the foresight to stay ahead in a fast-moving world.",
+        "approach": "We combine statistical modeling, machine learning, and big data analytics to build adaptive forecasting models. Our solutions learn continuously, ensuring accuracy and relevance across dynamic industries.",
+        "benefits": "Improve forecast accuracy by 70%, reduce inventory costs by 30%, and seize opportunities with early trend detection. Our analytics turn data into your strategic advantage."
+      }
+    },
+    {
+      "id": 8,
+      "title": "AI Model Development",
+      "slug": "ai-model-development-service",
+      "icon": "assets/images/service/icons/29.svg",
+      "description": "Craft custom AI models that solve your toughest challenges.",
+      "category": "specialized",
+      "serviceDetails": {
+        "overview": "AiTweak, from Bengaluru’s tech frontier, builds bespoke AI models tailored to your unique needs. From concept to deployment, we create solutions that deliver precision, scalability, and measurable impact for your business.",
+        "approach": "Our end-to-end process includes data preprocessing, feature engineering, model selection, and rigorous testing. We ensure seamless integration and performance optimization for real-world applications.",
+        "benefits": "Achieve 90%+ accuracy for your use case, integrate effortlessly with existing systems, and scale with growth. Our custom models drive efficiency, innovation, and competitive advantage."
+      }
+    },
+    {
+      "id": 9,
+      "title": "AI Integration",
+      "slug": "ai-integration-service",
+      "icon": "assets/images/service/icons/30.svg",
+      "description": "Seamlessly weave AI into your systems for instant transformation.",
+      "category": "specialized",
+      "serviceDetails": {
+        "overview": "From Bengaluru’s tech epicenter, AiTweak ensures AI integration that’s smooth and impactful. We embed cutting-edge AI into your existing systems, enhancing workflows without disruption and delivering immediate value.",
+        "approach": "Our methodology includes system audits, custom API development, and phased deployments to ensure stability and security. We prioritize minimal downtime and maximum performance for your business.",
+        "benefits": "Halve implementation time, maintain system reliability, and secure data while unlocking AI-driven insights. Our integration solutions deliver enhanced functionality and rapid ROI."
+      }
+    }
+  ],
+  "industries": [
+    {
+      "id": 1,
+      "title": "Healthcare",
+      "slug": "/industries/healthcare-industry",
+      "icon": "assets/images/industry/healthcare-icon.svg",
+      "description": "Transform lives with AI-powered diagnostics, drug discovery, and personalized patient care from Bengaluru's innovation hub."
+    },
+    {
+      "id": 2,
+      "title": "Financial Services",
+      "slug": "/industries/fintech-industry",
+      "icon": "assets/images/industry/fintech-icon.svg",
+      "description": "Secure and grow wealth with AI for fraud detection, algorithmic trading, and risk management, crafted in India's tech capital."
+    },
+    {
+      "id": 3,
+      "title": "Manufacturing",
+      "slug": "/industries/manufacturing-industry",
+      "icon": "assets/images/industry/manufacturing-icon.svg",
+      "description": "Build smarter factories with AI for predictive maintenance, quality automation, and efficiency, powered by Bengaluru's tech expertise."
+    },
+    {
+      "id": 4,
+      "title": "Retail & E-Commerce",
+      "slug": "/industries/ecommerce-industry",
+      "icon": "assets/images/industry/ecommerce-icon.svg",
+      "description": "Skyrocket sales with AI-driven personalization, inventory optimization, and customer insights, designed in Bengaluru's innovation core."
+    },
+    {
+      "id": 5,
+      "title": "Transportation",
+      "slug": "/industries/transportation-industry",
+      "icon": "assets/images/industry/transportation-icon.svg",
+      "description": "Revolutionize mobility with AI for autonomous vehicles, route optimization, and traffic systems, from Bengaluru's tech frontier."
+    },
+    {
+      "id": 6,
+      "title": "Agriculture",
+      "slug": "/industries/agriculture-industry",
+      "icon": "assets/images/industry/agriculture-icon.svg",
+      "description": "Grow sustainably with AI for precision farming, crop monitoring, and resource optimization, innovated in Bengaluru's tech ecosystem."
+    },
+    {
+      "id": 7,
+      "title": "Education",
+      "slug": "/industries/education-industry",
+      "icon": "assets/images/industry/education-icon.svg",
+      "description": "Empower learning with AI for personalized education, automated grading, and student engagement, crafted in Bengaluru's innovation hub."
+    },
+    {
+      "id": 8,
+      "title": "Energy",
+      "slug": "/industries/energy-industry",
+      "icon": "assets/images/industry/energy-icon.svg",
+      "description": "Optimize resources with AI for smart grids, predictive maintenance, and sustainable energy solutions, from Bengaluru's tech heart."
+    }
+  ]
+}

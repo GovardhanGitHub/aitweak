@@ -70,7 +70,7 @@ function page() {
                                 </p>
                                 <h6 className="title">Solution Design &amp; Implementation</h6>
                                 <p>
-                                    Design custom IT solutions that may include cloud infrastructure,
+                                    Design custom  AI solutions that may include cloud infrastructure,
                                     cybersecurity measures, data management, and system integrations.
                                     Oversee implementation process to ensure solutions are delivered
                                     on time within budget, Quality standards.
@@ -116,7 +116,7 @@ function page() {
                                 </p>
                                 <h2 className="title mt--35">Why Join Us?</h2>
                                 <p>
-                                    Luminous Technology offer a collaborative work environment that
+                                    AITweak Technology offer a collaborative work environment that
                                     values innovation and professional growth. As an IT Consultant,
                                     you’ll have the opportunity to work on impactful projects, help
                                     businesses leverage the power of technology, and advance your
@@ -134,7 +134,7 @@ function page() {
                                             Ready to apply? We can wait to meet you!
                                         </span>
                                         <a href="/apply" className="rts-btn btn-primary">
-                                            Apply Now at Luminous
+                                            Apply Now at AITweak
                                         </a>
                                         <p>
                                             Next, youl face an assessment to proceed. Apply for one job

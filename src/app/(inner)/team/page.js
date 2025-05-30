@@ -130,7 +130,7 @@ export default function Home() {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="title-team-left">
-                                    <h2 className="title">Luminos Team Member</h2>
+                                    <h2 className="title">AiTweak Team Member</h2>
                                 </div>
                             </div>
                         </div>

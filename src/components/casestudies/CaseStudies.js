@@ -1,6 +1,7 @@
 "use client"
-import React from 'react'
+import React from 'react';
 import { ReactSVG } from 'react-svg';
+
 function CaseStudies() {
   return (
     <div>
@@ -26,8 +27,8 @@ function CaseStudies() {
           <div className="row">
             <div className="col-lg-12">
               <div className="text-center-title-bg-white">
-                <h2 className="title">Case studies</h2>
-                <p>Here are our featured projects that empower businesses.</p>
+                <h2 className="title">AI Success Stories from India's Silicon Valley</h2>
+                <p>From Bengaluru, India's tech hub, AiTweak leads innovation in artificial intelligence solutions. As a premier AI company in India, we empower businesses across the nation with cutting-edge NLP, computer vision, and predictive analytics, transforming industries from Karnataka to Mumbai.</p>
               </div>
             </div>
           </div>
@@ -36,26 +37,20 @@ function CaseStudies() {
               className="col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-aos="fade-up" data-aos-delay="300"
             >
               <div className="single-case-studies">
-                <a href="case-studies-single.html" className="thumbnail">
+                <div className="thumbnail">
                   <img
                     loading="lazy"
                     rel="preload"
                     src="assets/images/case-studies/01.webp"
-                    alt="image"
+                    alt="Healthcare AI"
                   />
-                </a>
+                </div>
                 <div className="inner-content">
-                  <span>NodeJS Development, Security</span>
-                  <a href="case-studies-single.html">
-                    <h3 className="title">Rocken SaaS App</h3>
-                  </a>
-                  <a href="case-studies-single.html" className="rts-btn btn-border">
-                    View case study
-                    <ReactSVG
-                      src="assets/images/service/icons/13.svg"
-                      alt="arrow"
-                    />
-                  </a>
+                  <span>Healthcare AI Solutions in India, Natural Language Processing</span>
+                  <h3 className="title">Smart Healthcare AI Platform for Indian Hospitals</h3>
+                  <p className="description">
+                    AiTweak, a leading AI company in Bengaluru, developed an advanced NLP-powered diagnostics platform for one of India's premier hospitals. Our made-in-India solution enables doctors across the country to analyze patient records and medical histories in real-time. Our locally-trained transformer models, specifically adapted for Indian healthcare needs, achieved 92% accuracy in identifying potential diagnoses. The solution reduced diagnostic time by 65%, improved patient outcomes across multiple Indian cities, and revolutionized hospital workflows, demonstrating India's leadership in healthcare AI innovation.
+                  </p>
                 </div>
               </div>
             </div>
@@ -63,26 +58,20 @@ function CaseStudies() {
               className="col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-aos="fade-up" data-aos-delay="600"
             >
               <div className="single-case-studies">
-                <a href="case-studies-single.html" className="thumbnail">
+                <div className="thumbnail">
                   <img
                     loading="lazy"
                     rel="preload"
                     src="assets/images/case-studies/02.webp"
-                    alt="image"
+                    alt="Retail AI"
                   />
-                </a>
+                </div>
                 <div className="inner-content">
-                  <span>Cloud Migration, Web Design</span>
-                  <a href="case-studies-single.html">
-                    <h3 className="title">Hubdeck</h3>
-                  </a>
-                  <a href="case-studies-single.html" className="rts-btn btn-border">
-                    View case study
-                    <ReactSVG
-                      src="assets/images/service/icons/13.svg"
-                      alt="arrow"
-                    />
-                  </a>
+                  <span>Indian E-commerce, AI-Powered Retail Analytics</span>
+                  <h3 className="title">AI Shopping Personalization for Indian Market</h3>
+                  <p className="description">
+                    For one of India's leading e-commerce platforms, AiTweak's Bengaluru team built an AI-powered predictive analytics engine that delivers culturally-aware, hyper-personalized product recommendations. Understanding India's diverse shopping patterns through machine learning and real-time customer data, our solution increased conversion rates by 40% and reduced cart abandonment by 25%. Our local expertise ensured seamless integration with existing systems, helping Indian retailers thrive in the digital age with data-driven precision.
+                  </p>
                 </div>
               </div>
             </div>
@@ -90,26 +79,20 @@ function CaseStudies() {
               className="col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-aos="fade-up" data-aos-delay="300"
             >
               <div className="single-case-studies">
-                <a href="case-studies-single.html" className="thumbnail">
+                <div className="thumbnail">
                   <img
                     loading="lazy"
                     rel="preload"
                     src="assets/images/case-studies/03.webp"
-                    alt="image"
+                    alt="Agriculture AI"
                   />
-                </a>
+                </div>
                 <div className="inner-content">
-                  <span>Cloud Migration, Web Design</span>
-                  <a href="case-studies-single.html">
-                    <h3 className="title">Ficacu Agency</h3>
-                  </a>
-                  <a href="case-studies-single.html" className="rts-btn btn-border">
-                    View case study
-                    <ReactSVG
-                      src="assets/images/service/icons/13.svg"
-                      alt="arrow"
-                    />
-                  </a>
+                  <span>Indian Agriculture AI, Computer Vision</span>
+                  <h3 className="title">AI-Powered Farming Solutions for India</h3>
+                  <p className="description">
+                    AiTweak transformed Indian agriculture, starting with a Karnataka-based agribusiness, through our innovative computer vision system for precision farming. Developed in Bengaluru and optimized for Indian farming conditions, our AI analyzed drone-captured imagery to monitor crop health, detecting issues with 98% accuracy. The solution optimized water usage by 30% and boosted yields by 20%, empowering sustainable agriculture across India. Our local experts delivered a scalable platform that adapts to India's diverse agricultural landscapes and farming needs, driving efficiency and growth in the Indian agricultural sector.
+                  </p>
                 </div>
               </div>
             </div>
@@ -117,26 +100,20 @@ function CaseStudies() {
               className="col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-aos="fade-up" data-aos-delay="600"
             >
               <div className="single-case-studies">
-                <a href="case-studies-single.html" className="thumbnail">
+                <div className="thumbnail">
                   <img
                     loading="lazy"
                     rel="preload"
                     src="assets/images/case-studies/04.webp"
-                    alt="image"
+                    alt="Fintech AI"
                   />
-                </a>
+                </div>
                 <div className="inner-content">
-                  <span>NodeJS Development, Security</span>
-                  <a href="case-studies-single.html">
-                    <h3 className="title">Nexus App</h3>
-                  </a>
-                  <a href="case-studies-single.html" className="rts-btn btn-border">
-                    View case study
-                    <ReactSVG
-                      src="assets/images/service/icons/13.svg"
-                      alt="arrow"
-                    />
-                  </a>
+                  <span>Indian Fintech, AI-Powered Security</span>
+                  <h3 className="title">AI Fraud Prevention for Indian Fintech</h3>
+                  <p className="description">
+                    AiTweak's Bengaluru team crafted an intelligent automation system for a leading Indian fintech startup, combining India-specific NLP models and machine learning to detect fraudulent transactions in real-time. Designed specifically for Indian financial patterns, the solution achieved 95% accuracy, reducing false positives by 50% and saving millions in potential losses. Our local expertise and agile approach ensured rapid deployment, helping Indian financial institutions secure their platforms and build customer trust with made-in-India AI solutions.
+                  </p>
                 </div>
               </div>
             </div>
@@ -144,10 +121,10 @@ function CaseStudies() {
           <div className="row mt--60">
             <div className="col-lg-12">
               <a
-                href="case-studies.html"
+                href="/case-studies"
                 className="rts-btn btn-border more-project-btn"
               >
-                More projects
+                Explore More AI Solutions
                 <img
                   loading="lazy"
                   rel="preload"
@@ -159,7 +136,6 @@ function CaseStudies() {
           </div>
         </div>
       </div>
-
     </div>
   )
 }

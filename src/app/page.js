@@ -20,7 +20,7 @@ export default function Home() {
       <BannerOne />
       <LargeVideo />
       <ServiceOne />
-      <CounterUp />
+      {/* <CounterUp /> */}
       <CaseStudies />
       <Pricing />
       <FaqOne />

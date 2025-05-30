@@ -1,0 +1,170 @@
+.industry-single-area-banner {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px;
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.industry-single-area-banner:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
+}
+
+.industry-banner-area {
+  background: var(--color-primary-light);
+  padding: 70px 0;
+  margin-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.industry-banner-area:before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, var(--color-primary-light) 0%, transparent 70%);
+  opacity: 0.5;
+  z-index: 0;
+}
+
+.industry-banner-area .title {
+  color: var(--color-primary);
+  margin: 0;
+  font-size: 42px;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+}
+
+.industry-banner-area .mt-4 {
+  position: relative;
+  z-index: 1;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--color-body);
+  max-width: 800px;
+}
+
+.industry-page-banner {
+  position: relative;
+  z-index: 1;
+}
+
+/* Industry-specific banner backgrounds */
+.healthcare-industry {
+  background-image: url('/assets/images/industry/healthcare-banner.webp');
+}
+
+.fintech-industry {
+  background-image: url('/assets/images/industry/fintech-banner.webp');
+}
+
+.manufacturing-industry {
+  background-image: url('/assets/images/industry/manufacturing-banner.webp');
+}
+
+.ecommerce-industry {
+  background-image: url('/assets/images/industry/ecommerce-banner.webp');
+}
+
+.transportation-industry {
+  background-image: url('/assets/images/industry/transportation-banner.webp');
+}
+
+.agriculture-industry {
+  background-image: url('/assets/images/industry/agriculture-banner.webp');
+}
+
+.education-industry {
+  background-image: url('/assets/images/industry/education-banner.webp');
+}
+
+.energy-industry {
+  background-image: url('/assets/images/industry/energy-banner.webp');
+}
+
+/* Industry card styling for related industries */
+.industry-card {
+  padding: 30px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.industry-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.industry-card h3 {
+  color: var(--color-primary);
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.industry-card p {
+  color: var(--color-body);
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.industry-card .rts-btn {
+  margin-top: auto;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 991px) {
+  .industry-banner-area .title {
+    font-size: 36px;
+  }
+
+  .industry-banner-area .mt-4 {
+    font-size: 16px;
+  }
+
+  .industry-single-area-banner {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .industry-banner-area {
+    padding: 50px 0;
+  }
+
+  .industry-banner-area .title {
+    font-size: 32px;
+  }
+
+  .industry-card {
+    padding: 20px;
+  }
+
+  .industry-card h3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .industry-banner-area .title {
+    font-size: 28px;
+  }
+
+  .industry-single-area-banner {
+    height: 250px;
+    margin-bottom: 30px;
+  }
+}

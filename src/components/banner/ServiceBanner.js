@@ -17,7 +17,7 @@ function ServiceBanner() {
                                     <a href="#">Home</a>
                                     <i className="fa-regular fa-chevron-right" />
                                     <a className="current" href="#">
-                                        Services
+                                        AI Services
                                     </a>
                                 </div>
                                 <h1
@@ -25,15 +25,16 @@ function ServiceBanner() {
                                     data-wow-offset={120}
                                     data-wow-delay=".4s"
                                 >
-                                    See how we help your team solve today’s biggest challenges
+                                    Transforming Businesses with Intelligent AI Solutions
                                 </h1>
                                 <p
                                     className="disc wow fadeInUp"
                                     data-wow-offset={120}
                                     data-wow-delay=".6s"
                                 >
-                                    Offers a unified platform that fosters innovation while providing
-                                    end-to-end data management.
+                                    Harness the power of artificial intelligence and machine learning 
+                                    to automate processes, gain predictive insights, and drive 
+                                    unprecedented business growth through innovative AI technologies.
                                 </p>
                             </div>
                         </div>
@@ -42,7 +43,7 @@ function ServiceBanner() {
                                 <img
                                     className="jarallax-img"
                                     src="assets/images/service/04.webp"
-                                    alt="serivce-area"
+                                    alt="AI solutions and services"
                                 />
                             </div>
                         </div>
@@ -51,12 +52,12 @@ function ServiceBanner() {
                 <div className="shape-area-start">
                     <img
                         src="assets/images/banner/06.png"
-                        alt="service-banner-shape"
+                        alt="AI pattern shape"
                         className="one wow move-right"
                     />
                     <img
                         src="assets/images/banner/07.png"
-                        alt="service-banner-shape"
+                        alt="AI circuit shape"
                         className="two wow move-left"
                     />
                 </div>

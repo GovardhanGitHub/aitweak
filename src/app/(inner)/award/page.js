@@ -176,7 +176,7 @@ export default function Home() {
                                         </h3>
                                         <p className="wow fadeInUp" data-wow-delay=".3s">
                                             Schedule a no-obligation consultation to discuss your unique
-                                            needs and how Luminous can elevate your business technology.
+                                            needs and how AITweak can elevate your business technology.
                                         </p>
                                         <a
                                             href="/contact"

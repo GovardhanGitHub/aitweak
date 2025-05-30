@@ -1,7 +1,14 @@
 "use client"
 import React from 'react'
 import { ReactSVG } from 'react-svg';
+import Link from 'next/link';
+import AiServicesData from '@/data/AiServices.json';
+const { aiServices } = AiServicesData;
+
 function ServiceOne() {
+    // Filter core services
+    const coreServices = aiServices.filter(service => service.category === "core" || service.category === "advanced");
+
     return (
         <div>
             {/* solution expertiece */}
@@ -28,223 +35,38 @@ function ServiceOne() {
                         </div>
                     </div>
                     <div className="row g-0 mt--70">
-                        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-                            <div className="single-solution-style-one border-left">
-                                <div className="right-draw">
-                                    <img
-                                        loading="lazy"
-                                        rel="preload"
-                                        src="assets/images/service/icons/01.png"
-                                        alt="icons"
-                                    />
+                        {coreServices.map((service) => (
+                            <div key={service.id} className="col-lg-4 col-md-6 col-sm-12 col-12">
+                                <div className="single-solution-style-one border-left">
+                                    <div className="right-draw">
+                                        <img
+                                            loading="lazy"
+                                            rel="preload"
+                                            src="assets/images/service/icons/01.png"
+                                            alt="icons"
+                                        />
+                                    </div>
+                                    <div className="icon">
+                                        <img
+                                            loading="lazy"
+                                            rel="preload"
+                                            src={service.icon}
+                                            alt={service.title}
+                                        />
+                                    </div>
+                                    <h4 className="title">{service.title}</h4>
+                                    <p className="disc">{service.description}</p>
+                                    <Link href={`/services/${service.slug}`} className="rts-read-more">
+                                        Learn More
+                                        <i className="fa-solid fa-arrow-right"></i>
+                                    </Link>
                                 </div>
-                                <div className="icon">
-                                    <img
-                                        loading="lazy"
-                                        rel="preload"
-                                        src="assets/images/service/icons/01.svg"
-                                        alt="service"
-                                    />
-                                </div>
-                                <h4 className="title">Fast and Reliable</h4>
-                                <p className="disc">
-                                    Whether you have a team of 2 or 200, our shared team inboxes keep
-                                    everyone on the same page and in the loop.
-                                </p>
-                                <a href="service-single.html" className="btn-arrow">
-                                    Service Details
-                                    <img
-                                        className="injectable"
-                                        src="assets/images/icons/arrow-right.svg"
-                                        alt="arrow"
-                                    />
-                                </a>
                             </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-                            <div className="single-solution-style-one">
-                                <div className="right-draw">
-                                    <img
-                                        loading="lazy"
-                                        rel="preload"
-                                        src="assets/images/service/icons/01.png"
-                                        alt="icons"
-                                    />
-                                </div>
-                                <div className="icon">
-                                    <img
-                                        loading="lazy"
-                                        rel="preload"
-                                        src="assets/images/service/icons/02.svg"
-                                        alt="service"
-                                    />
-                                </div>
-                                <h4 className="title">Discover Data Everywhere</h4>
-                                <p className="disc">
-                                    Whether you have a team of 2 or 200, our shared team inboxes keep
-                                    everyone on the same page and in the loop.
-                                </p>
-                                <a href="service-single.html" className="btn-arrow">
-                                    Service Details
-                                    <img
-                                        className="injectable"
-                                        src="assets/images/icons/arrow-right.svg"
-                                        alt="arrow"
-                                    />
-                                </a>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-                            <div className="single-solution-style-one">
-                                <div className="right-draw">
-                                    <img
-                                        loading="lazy"
-                                        rel="preload"
-                                        src="assets/images/service/icons/01.png"
-                                        alt="icons"
-                                    />
-                                </div>
-                                <div className="icon">
-                                    <img
-                                        loading="lazy"
-                                        rel="preload"
-                                        src="assets/images/service/icons/03.svg"
-                                        alt="service"
-                                    />
-                                </div>
-                                <h4 className="title">Enrich Data with Context</h4>
-                                <p className="disc">
-                                    Whether you have a team of 2 or 200, our shared team inboxes keep
-                                    everyone on the same page and in the loop.
-                                </p>
-                                <a href="service-single.html" className="btn-arrow">
-                                    Service Details
-                                    <img
-                                        className="injectable"
-                                        src="assets/images/icons/arrow-right.svg"
-                                        alt="arrow"
-                                    />
-                                </a>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-                            <div className="single-solution-style-one border-left border-bottom-1">
-                                <div className="right-draw">
-                                    <img
-                                        loading="lazy"
-                                        rel="preload"
-                                        src="assets/images/service/icons/01.png"
-                                        alt="icons"
-                                    />
-                                </div>
-                                <div className="icon">
-                                    <img
-                                        loading="lazy"
-                                        rel="preload"
-                                        src="assets/images/service/icons/04.svg"
-                                        alt="service"
-                                    />
-                                </div>
-                                <h4 className="title">Risk Management</h4>
-                                <p className="disc">
-                                    Whether you have a team of 2 or 200, our shared team inboxes keep
-                                    everyone on the same page and in the loop.
-                                </p>
-                                <a href="service-single.html" className="btn-arrow">
-                                    Service Details
-                                    <img
-                                        className="injectable"
-                                        src="assets/images/icons/arrow-right.svg"
-                                        alt="arrow"
-                                    />
-                                </a>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-                            <div className="single-solution-style-one border-bottom-1">
-                                <div className="right-draw">
-                                    <img
-                                        loading="lazy"
-                                        rel="preload"
-                                        src="assets/images/service/icons/01.png"
-                                        alt="icons"
-                                    />
-                                </div>
-                                <div className="icon">
-                                    <img
-                                        loading="lazy"
-                                        rel="preload"
-                                        src="assets/images/service/icons/05.svg"
-                                        alt="service"
-                                    />
-                                </div>
-                                <h4 className="title">Privacy Compliance</h4>
-                                <p className="disc">
-                                    Whether you have a team of 2 or 200, our shared team inboxes keep
-                                    everyone on the same page and in the loop.
-                                </p>
-                                <a href="service-single.html" className="btn-arrow">
-                                    Service Details
-                                    <img
-                                        className="injectable"
-                                        src="assets/images/icons/arrow-right.svg"
-                                        alt="arrow"
-                                    />
-                                </a>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-                            <div className="single-solution-style-one border-bottom-1">
-                                <div className="right-draw">
-                                    <img
-                                        loading="lazy"
-                                        rel="preload"
-                                        src="assets/images/service/icons/01.png"
-                                        alt="icons"
-                                    />
-                                </div>
-                                <div className="icon">
-                                    <img
-                                        loading="lazy"
-                                        rel="preload"
-                                        src="assets/images/service/icons/06.svg"
-                                        alt="service"
-                                    />
-                                </div>
-                                <h4 className="title">Third-Party Management</h4>
-                                <p className="disc">
-                                    Whether you have a team of 2 or 200, our shared team inboxes keep
-                                    everyone on the same page and in the loop.
-                                </p>
-                                <a href="service-single.html" className="btn-arrow">
-                                    Service Details
-                                    <img
-                                        className="injectable"
-                                        src="assets/images/icons/arrow-right.svg"
-                                        alt="arrow"
-                                    />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <a
-                                href="service.html"
-                                className="rts-btn btn-primary wow fadeInUp"
-                                data-wow-delay=".5s"
-                            >
-                                More Solutions
-                                <ReactSVG
-                                    src="assets/images/service/icons/13.svg"
-                                    alt="arrow"
-                                />
-                            </a>
-                        </div>
+                        ))}
                     </div>
                 </div>
             </div>
-            {/* solution expertiece end */}
+            {/* solution expertiece area end */}
         </div>
     )
 }

@@ -8,25 +8,25 @@ import "swiper/swiper-bundle.css";
 const TestimonialsTwo = () => {
     const testimonials = [
         {
-            text: "Luminous transformed our agricultural business with their custom software solution. Their team developed an intuitive crop management system that has increased our yield by 30% and significantly reduced water waste. Their ongoing support has been invaluable.",
+            text: "AITweak transformed our agricultural business with their custom software solution. Their team developed an intuitive crop management system that has increased our yield by 30% and significantly reduced water waste. Their ongoing support has been invaluable.",
             imgSrc: "assets/images/testimonials/01.png",
             name: "Marcus Freeman",
             designation: "CTO of SwiftPay Financial",
         },
         {
-            text: "Luminous transformed our agricultural business with their custom software solution. Their team developed an intuitive crop management system that has increased our yield by 30% and significantly reduced water waste. Their ongoing support has been invaluable.",
+            text: "AITweak transformed our agricultural business with their custom software solution. Their team developed an intuitive crop management system that has increased our yield by 30% and significantly reduced water waste. Their ongoing support has been invaluable.",
             imgSrc: "assets/images/testimonials/02.png",
             name: "John Freeman",
             designation: "CTO of SwiftPay Financial",
         },
         {
-            text: "Luminous transformed our agricultural business with their custom software solution. Their team developed an intuitive crop management system that has increased our yield by 30% and significantly reduced water waste. Their ongoing support has been invaluable.",
+            text: "AITweak transformed our agricultural business with their custom software solution. Their team developed an intuitive crop management system that has increased our yield by 30% and significantly reduced water waste. Their ongoing support has been invaluable.",
             imgSrc: "assets/images/testimonials/01.png",
             name: "Marcus Freeman",
             designation: "CTO of SwiftPay Financial",
         },
         {
-            text: "Luminous transformed our agricultural business with their custom software solution. Their team developed an intuitive crop management system that has increased our yield by 30% and significantly reduced water waste. Their ongoing support has been invaluable.",
+            text: "AITweak transformed our agricultural business with their custom software solution. Their team developed an intuitive crop management system that has increased our yield by 30% and significantly reduced water waste. Their ongoing support has been invaluable.",
             imgSrc: "assets/images/testimonials/02.png",
             name: "John Freeman",
             designation: "CTO of SwiftPay Financial",

@@ -14,7 +14,7 @@ function CtaTwo() {
                                 <h2 className="title">
                                     Encourages scheduling a no-obligation consultation
                                 </h2>
-                                <p>Offers a 30-day free trial of Luminous Managed IT Services.</p>
+                                <p>Offers a 30-day free trial of AITweak Managed IT Services.</p>
                                 <a href="contact.html" className="rts-btn btn-bold btn-border">
                                     Begin Free Trials
                                     <ReactSVG

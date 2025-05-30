@@ -163,7 +163,7 @@ function page() {
                                     secure your digital assets.
                                 </p>
                                 <p data-aos-duration="1000" data-aos-delay="300">
-                                    Luminous works with businesses of all sizes, from small startups
+                                    AITweak works with businesses of all sizes, from small startups
                                     to large enterprises. We tailor our solutions to meet the specific
                                     needs and budget of each client offers a wide range of IT
                                     services. As we invest heavily in ongoing training and
@@ -321,7 +321,7 @@ function page() {
                             <h2 className="title" data-aos-duration="1000" data-aos-delay="100">Book a Free Consultation</h2>
                             <p className="disc" data-aos-duration="1000" data-aos-delay="300">
                                 Schedule a no-obligation consultation to discuss your unique needs
-                                and how Luminous can elevate your business technology.
+                                and how AITweak can elevate your business technology.
                             </p>
                             <a
                                 href="#"

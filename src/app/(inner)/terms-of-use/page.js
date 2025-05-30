@@ -37,7 +37,7 @@ export default function Home() {
                                             efficiency, and secure your digital assets.
                                         </p>
                                         <p className="disc">
-                                            Luminous works with businesses of all sizes, from small startups
+                                            AITweak works with businesses of all sizes, from small startups
                                             to large enterprises. We tailor our solutions to meet the
                                             specific needs and budget of each client offers a wide range of
                                             IT services. As we invest heavily in ongoing training and
@@ -47,7 +47,7 @@ export default function Home() {
                                             development projects.
                                         </p>
                                         <p className="disc">
-                                            Luminous works with businesses of all sizes, from small startups
+                                            AITweak works with businesses of all sizes, from small startups
                                             to large enterprises. We tailor our solutions to meet the
                                             specific needs and budget of each client offers a wide range of
                                             IT services. As we invest heavily in ongoing training and
@@ -75,7 +75,7 @@ export default function Home() {
                                             efficiency, and secure your digital assets.
                                         </p>
                                         <p className="disc">
-                                            Luminous works with businesses of all sizes, from small startups
+                                            AITweak works with businesses of all sizes, from small startups
                                             to large enterprises. We tailor our solutions to meet the
                                             specific needs and budget of each client offers a wide range of
                                             IT services. As we invest heavily in ongoing training and
@@ -103,7 +103,7 @@ export default function Home() {
                                 <h2 className="title">Book a Free Consultation</h2>
                                 <p className="disc">
                                     Schedule a no-obligation consultation to discuss your unique needs
-                                    and how Luminous can elevate your business technology.
+                                    and how AITweak can elevate your business technology.
                                 </p>
                                 <a
                                     href="#"

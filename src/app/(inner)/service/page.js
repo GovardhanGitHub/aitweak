@@ -19,11 +19,11 @@ export default function Home() {
             <ServiceBanner />
             <ServiceSeven />
             <ServiceList />
-            <LargeImage />
+            {/* <LargeImage />
             <SolutionCounter />
             <FeatureTwo />
             <CtaFive />
-            <TestimonialsFive/>
+            <TestimonialsFive/> */}
             <CtaSix/>
             <FooterOne />
             <BackToTop />

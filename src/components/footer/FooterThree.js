@@ -16,7 +16,7 @@ function FooterThree() {
                         <img src="assets/images/logo/logo-1.svg" alt="logo" />
                     </Link>
                     <p className="disc">
-                        Luminous is a leading IT solutions company that provides
+                        AITweak is a leading  AI solutions company that provides
                         innovative technology services to businesses of all sizes.
                     </p>
                     </div>
@@ -135,7 +135,7 @@ function FooterThree() {
                 <div className="row">
                 <div className="col-lg-12">
                     <div className="copyright-wrapper">
-                    <p>© 2024 Luminos. All rights reserved.</p>
+                    <p>© 2024 AiTweak. All rights reserved.</p>
                     <div className="social-copyright-area">
                         <ul>
                         <li>

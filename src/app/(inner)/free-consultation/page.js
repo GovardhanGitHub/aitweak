@@ -24,14 +24,14 @@ export default function Home() {
                             <div className="col-lg-6">
                                 <div className="career-banner-wrapper">
                                     <h1 className="title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                                        Empowering Businesses with Expert IT Solutions
+                                        Empowering Businesses with Expert  AI solutions
                                     </h1>
                                     <p className="disc" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                                         We believe that our people are our greatest asset. We are
                                         committed to fostering a collaborative, inclusive, and dynamic
                                         work environment where every team member can thrive. If you are
                                         passionate about technology and dedicated to delivering
-                                        exceptional IT solutions, we want to hear from you!
+                                        exceptional  AI solutions, we want to hear from you!
                                     </p>
                                     <a href="#" className="rts-btn btn-primary btn-bold" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                                         Current Openings

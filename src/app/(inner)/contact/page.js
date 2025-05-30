@@ -136,8 +136,9 @@ export default function Home() {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="google-map-wrapper">
+
                                     <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d58418.94421839912!2d90.423296!3d23.7764608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1731922050679!5m2!1sen!2sbd"
+                                    src="https://www.google.com/maps/embed/v1/place?q=Yelahanka,+Bengaluru,+Karnataka,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
                                         width={600}
                                         height={500}
                                         style={{ border: 0 }}
@@ -159,26 +160,26 @@ export default function Home() {
                                     <div className="icon">
                                         <i className="fa-sharp fa-regular fa-location-dot" />
                                     </div>
-                                    <p>Retail store</p>
-                                    <span>Mon-Sat 9am to 5pm.</span>
+                                    <p>Address</p>
+                                    <span>Yelahanka, Bengaluru<br/>Karnataka</span>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6 col-sm-12">
                                 <div className="single-location-area-contact">
                                     <div className="icon">
-                                        <i className="fa-sharp fa-regular fa-location-dot" />
+                                        <i className="fa-sharp fa-regular fa-phone" />
                                     </div>
-                                    <p>Showroom</p>
-                                    <span>Mon-Fri 9am to 5pm.</span>
+                                    <p>Phone</p>
+                                    <span>+91 93538 43389</span>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6 col-sm-12">
                                 <div className="single-location-area-contact">
                                     <div className="icon">
-                                        <i className="fa-sharp fa-regular fa-location-dot" />
+                                        <i className="fa-sharp fa-regular fa-clock" />
                                     </div>
-                                    <p>Head office</p>
-                                    <span>Mon-Sat 9am to 5pm.</span>
+                                    <p>Working Hours</p>
+                                    <span>Mon-Sat 9am to 5pm</span>
                                 </div>
                             </div>
                         </div>

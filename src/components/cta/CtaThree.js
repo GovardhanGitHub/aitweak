@@ -20,7 +20,7 @@ function CtaThree() {
                         className="disc"
                     >
                         Schedule a no-obligation consultation to discuss your unique
-                        needs and how Luminous can elevate your business technology.
+                        needs and how AITweak can elevate your business technology.
                     </p>
                     <a
                         href="/contact"

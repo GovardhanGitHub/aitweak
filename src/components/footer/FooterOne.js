@@ -1,10 +1,24 @@
 "use client"
 import React from 'react'
 import Link from 'next/link';
+import AiServicesData from '@/data/AiServices.json';
+
+const { aiServices } = AiServicesData;
+const industries = [
+    { name: "Construction", slug: "construction-industry" },
+    { name: "Healthcare", slug: "healthcare-industry" },
+    { name: "Ecommerce", slug: "ecommerce-industry" },
+    { name: "Fintech", slug: "fintech-industry" },
+    { name: "Logistic", slug: "logistic-industry" },
+    { name: "Travel Industry", slug: "travel-industry" }
+];
+
 function FooterOne() {
+    // Filter core services for footer
+    const footerServices = aiServices.filter(service => service.category === "core");
+
     return (
         <div>
-
             {/* rts footer area start */}
             <div className="rts-footer-area rts-section-gapTop pb--80">
                 <div className="container">
@@ -15,8 +29,7 @@ function FooterOne() {
                                     <img src="/assets/images/logo/logo-1.svg" alt="logo" />
                                 </Link>
                                 <p className="disc">
-                                    Luminous is a leading IT solutions company that provides
-                                    innovative technology services to businesses of all sizes.
+                             AiTweak empowers businesses with transformative AI solutions. Explore how our innovative NLP, computer vision, and predictive analytics are revolutionizing industries.
                                 </p>
                             </div>
                         </div>
@@ -26,24 +39,11 @@ function FooterOne() {
                                     <div className="single-nav-area-footer">
                                         <p className="parent">Services</p>
                                         <ul>
-                                            <li>
-                                                <Link href="/technologies-service">Technologies</Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/ai-learning-service">Ai Learning</Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/it-strategies">IT Strategies</Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/it-consulting-service">It Consulting</Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/management-service">Management</Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/service-single">Cloud Migration</Link>
-                                            </li>
+                                            {footerServices.map((service) => (
+                                                <li key={service.id}>
+                                                    <Link href={`/services/${service.slug}`}>{service.title}</Link>
+                                                </li>
+                                            ))}
                                         </ul>
                                     </div>
                                 </div>
@@ -74,26 +74,13 @@ function FooterOne() {
                                 </div>
                                 <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                                     <div className="single-nav-area-footer">
-                                        <p className="parent">Industrys</p>
+                                        <p className="parent">Industries</p>
                                         <ul>
-                                            <li>
-                                                <Link href="/construction-industry">Construction</Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/healthcare-industry">Healthcare</Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/ecommerce-industry">Ecommerce</Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/fintech-industry">Fintech</Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/logistic-industry">Logistic</Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/travel-industry">Travel Industry</Link>
-                                            </li>
+                                            {industries.map((industry, index) => (
+                                                <li key={index}>
+                                                    <Link href={`/industries/${industry.slug}`}>{industry.name}</Link>
+                                                </li>
+                                            ))}
                                         </ul>
                                     </div>
                                 </div>
@@ -134,7 +121,7 @@ function FooterOne() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="copyright-wrapper">
-                                <p>© 2024 Luminos. All rights reserved.</p>
+                                <p>© 2024 AiTweak. All rights reserved.</p>
                                 <div className="social-copyright-area">
                                     <ul>
                                         <li aria-label="Visit our Facebook page">
@@ -165,7 +152,6 @@ function FooterOne() {
                 </div>
             </div>
             {/* rts copyright area end */}
-
         </div>
     )
 }

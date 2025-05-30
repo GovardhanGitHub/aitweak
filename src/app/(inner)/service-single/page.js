@@ -15,12 +15,12 @@ export default function Home() {
             <HeaderTwo />
             <ServiceSingle />
             <SingleDetails />
-            <MoreSolutions/>
+            {/* <MoreSolutions/>
 
 
             <FeatureTwo />
             <TestimonialsFive />
-            <CtaSix />
+            <CtaSix /> */}
             <FooterOne />
             <BackToTop />
         </div>

@@ -1,4 +1,3 @@
-
 import BackToTop from "@/components/common/BackToTop";
 import FooterOne from "@/components/footer/FooterOne";
 import HeaderTwo from "@/components/header/HeaderTwo";
@@ -13,7 +12,7 @@ export default function Home() {
             <div>
                 <div className="container-large">
                     {/* service area start */}
-                    <div className="service-single-area-banner technology-service bg_image jarallax"></div>
+                    <div className="service-single-area-banner ai-service bg_image jarallax"></div>
                     {/* service area end */}
                 </div>
 
@@ -26,37 +25,31 @@ export default function Home() {
                             <div className="col-lg-12">
                                 <div className="inner-content">
                                     <div className="top">
-                                        <h1 className="title">Technologies Service</h1>
+                                        <h1 className="title">AI Technologies Service</h1>
                                         <p className="disc">
-                                            Technologies Service offers innovative solutions, streamlining processes, enhancing efficiency, ensuring growth, and driving digital transformation.
+                                            AI Technologies Service delivers cutting-edge artificial intelligence solutions, automating complex processes, enhancing decision-making, driving innovation, and transforming businesses across industries.
                                         </p>
                                     </div>
                                     <div className="mid-content">
                                         <p className="disc">
-                                            Wer your strategic partners in digital transformation. With
-                                            over a decade of experience and a team of certified experts, we
-                                            deliver tailored solutions that drive growth, enhance
-                                            efficiency, and secure your digital assets.
+                                            We are your strategic partners in AI-driven transformation. With
+                                            extensive expertise in machine learning, deep learning, and AI implementation, we
+                                            deliver intelligent solutions that revolutionize operations, boost
+                                            productivity, and unlock new possibilities for your business.
                                         </p>
                                         <p className="disc">
-                                            Luminous works with businesses of all sizes, from small startups
-                                            to large enterprises. We tailor our solutions to meet the
-                                            specific needs and budget of each client offers a wide range of
-                                            IT services. As we invest heavily in ongoing training and
-                                            professional development for our team. We also participate in
-                                            industry conferences, maintain partnerships with leading
-                                            technology providers, and conduct internal research and
-                                            development projects.
+                                            AITweak AI works with organizations of all scales, from innovative startups
+                                            to Fortune 500 enterprises. We develop custom AI models tailored to your
+                                            specific industry challenges and business objectives, offering comprehensive
+                                            artificial intelligence services including predictive analytics, computer vision,
+                                            natural language processing, and intelligent automation systems.
                                         </p>
                                         <p className="disc">
-                                            Luminous works with businesses of all sizes, from small startups
-                                            to large enterprises. We tailor our solutions to meet the
-                                            specific needs and budget of each client offers a wide range of
-                                            IT services. As we invest heavily in ongoing training and
-                                            professional development for our team. We also participate in
-                                            industry conferences, maintain partnerships with leading
-                                            technology providers, and conduct internal research and
-                                            development projects.
+                                            Our team of AI specialists and data scientists continuously advance their
+                                            expertise through cutting-edge research, collaboration with leading AI institutes,
+                                            partnerships with major technology providers like NVIDIA, Google Cloud AI, and AWS,
+                                            while conducting breakthrough research in emerging AI technologies and
+                                            responsible AI development practices.
                                         </p>
                                     </div>
                                 </div>
@@ -72,7 +65,7 @@ export default function Home() {
                                     <img
                                         className="jarallax-img"
                                         src="assets/images/service/07.webp"
-                                        alt="service"
+                                        alt="AI machine learning visualization"
                                     />
                                 </div>
                             </div>
@@ -81,7 +74,7 @@ export default function Home() {
                                     <img
                                         className="jarallax-img"
                                         src="assets/images/service/08.webp"
-                                        alt="service"
+                                        alt="AI neural network architecture"
                                     />
                                 </div>
                             </div>
@@ -95,25 +88,22 @@ export default function Home() {
                                 <div className="inner-content">
                                     <div className="mid-content">
                                         <p className="disc">
-                                            We are your strategic partners in digital transformation. With
-                                            over a decade of experience and a team of certified experts, we
-                                            deliver tailored solutions that drive growth, enhance
-                                            efficiency, and secure your digital assets.
+                                            We are your trusted AI transformation partners. With
+                                            proven track record in deploying enterprise-grade AI solutions, our team of certified
+                                            AI engineers and data scientists deliver intelligent systems that drive exponential
+                                            growth, optimize operations, and secure your competitive advantage.
                                         </p>
                                         <p className="disc">
-                                            Luminous works with businesses of all sizes, from small startups
-                                            to large enterprises. We tailor our solutions to meet the
-                                            specific needs and budget of each client offers a wide range of
-                                            IT services. As we invest heavily in ongoing training and
-                                            professional development for our team. We also participate in
-                                            industry conferences, maintain partnerships with leading
-                                            technology providers, and conduct internal research and
-                                            development projects.
+                                            AITweak AI specializes in end-to-end AI implementation across diverse industries
+                                            including healthcare, finance, manufacturing, and retail. We design bespoke AI
+                                            architectures that scale with your business, from proof-of-concept to production
+                                            deployment, ensuring seamless integration with existing systems while maintaining
+                                            the highest standards of AI ethics and data privacy.
                                         </p>
                                         <p className="disc">
-                                            Offers a unified platform that fosters innovation while
-                                            providing end-to-end data management. See how we help your team
-                                            solve today’s biggest challenges.
+                                            Our unified AI platform accelerates innovation while providing comprehensive
+                                            data intelligence and automated insights. Discover how we empower your organization
+                                            to solve complex challenges with AI-driven solutions that deliver measurable results.
                                         </p>
                                     </div>
                                 </div>
@@ -135,17 +125,17 @@ export default function Home() {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
-                                <h2 className="title">Book a Free Consultation</h2>
+                                <h2 className="title">Book a Free AI Consultation</h2>
                                 <p className="disc">
-                                    Schedule a no-obligation consultation to discuss your unique needs
-                                    and how Luminous can elevate your business technology.
+                                    Schedule a complimentary AI strategy session to explore how artificial intelligence
+                                    can transform your business operations and unlock new growth opportunities.
                                 </p>
                                 <a
                                     href="#"
                                     className="rts-btn btn-primary wow fadeInUp"
                                     data-wow-delay=".5s"
                                 >
-                                    View Solutions
+                                    Explore AI Solutions
                                     <img
                                         className="injectable"
                                         src="assets/images/service/icons/13.svg"

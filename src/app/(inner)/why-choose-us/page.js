@@ -16,7 +16,7 @@ function page() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="banner-inner-why-choose-us">
-                                <h1 className="title">Experience the Difference with Luminos</h1>
+                                <h1 className="title">Experience the Difference with AiTweak</h1>
                             </div>
                         </div>
                     </div>
@@ -55,13 +55,13 @@ function page() {
                 </div>
             </div>
             {/* why choose us banner area end */}
-            {/* luminos solution key */}
+            {/* AiTweak solution key */}
             <div className="luminos-solution-key-feature mt--50">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-5">
                             <div className="luminos-main-solutioin-key">
-                                <h3 className="title">Choose Luminos IT Solutions for:</h3>
+                                <h3 className="title">Choose AiTweak  AI solutions for:</h3>
                                 <div className="check-wrapper">
                                     <div className="single-check">
                                         <img src="assets/images/service/01.svg" alt="service" />
@@ -85,7 +85,7 @@ function page() {
                                         <span>Risk Assessment</span>
                                     </div>
                                     <div className="single-tag">
-                                        <span>IT Solutions</span>
+                                        <span> AI solutions</span>
                                     </div>
                                     <div className="single-tag">
                                         <span>Consulting Services</span>
@@ -101,7 +101,7 @@ function page() {
                     </div>
                 </div>
             </div>
-            {/* luminos solution key end */}
+            {/* AiTweak solution key end */}
             {/* working process area why choose us */}
             <div className="why-choose-us-working-process rts-section-gap">
                 <div className="container">
@@ -136,7 +136,7 @@ function page() {
                                         <span>IT Consulting</span>
                                     </div>
                                     <div className="single">
-                                        <span>IT Solutions</span>
+                                        <span> AI solutions</span>
                                     </div>
                                     <div className="single">
                                         <span>Consulting Services</span>
@@ -159,7 +159,7 @@ function page() {
                                         <span>IT Consulting</span>
                                     </div>
                                     <div className="single">
-                                        <span>IT Solutions</span>
+                                        <span> AI solutions</span>
                                     </div>
                                     <div className="single">
                                         <span>Consulting Services</span>
@@ -182,7 +182,7 @@ function page() {
                                         <span>IT Consulting</span>
                                     </div>
                                     <div className="single">
-                                        <span>IT Solutions</span>
+                                        <span> AI solutions</span>
                                     </div>
                                     <div className="single">
                                         <span>Consulting Services</span>

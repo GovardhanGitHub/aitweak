@@ -67,14 +67,14 @@ const BackToTop = () => {
                     <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
                 </svg>
             </div>
-            <div className="rtl-ltr-switcher-btn" onClick={toggleDirection}>
                 {/* Conditional rendering based on the current direction */}
+            {/* <div className="rtl-ltr-switcher-btn" onClick={toggleDirection}>
                 {direction === 'ltr' ? (
                     <span className="rtl show">View RTL</span>
                 ) : (
                     <span className="ltr show">View LTR</span>
                 )}
-            </div>
+            </div> */}
         </>
     );
 };

@@ -29,15 +29,17 @@ function page() {
                                     <div key={index} className="col-lg-4 col-md-6 col-sm-12">
                                         <div className="single-blog-area-start border-none">
                                             {
-                                                <BlogGridMain
-                                                    blogCategory={blog.category}
-                                                    Slug={blog.slug}
-                                                    blogImage={blog.image}
-                                                    authorImg={blog.authorImg}
-                                                    blogTitle={blog.title}
-                                                    blogAuthor={blog.author}
-                                                    blogPublishedDate={blog.publishedDate}
-                                                />
+                                     <BlogGridMain
+                                    Slug={blog.slug}
+                                    blogImage={blog.image}
+                                    blogTitle={blog.title}
+                                    blogCategory={blog.category}
+                                    blogDescription={blog.descripTion}
+                                    blogAuthor={blog.author}
+                                    blogDate={blog.publishedDate}
+                                    authorImage={blog.authorImage}
+                                    authorDesignation={blog.authorDesignation}
+                                />
                                             }
                                         </div>
                                     </div>

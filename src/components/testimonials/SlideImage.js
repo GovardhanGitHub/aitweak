@@ -1,7 +1,14 @@
 "use client"
 import React, { useRef, useState } from "react";
 // Import Swiper React components
-import { Swiper, SwiperSlide, Autoplay } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
 function SlideImage() {
     return (
         <div>
@@ -12,7 +19,10 @@ function SlideImage() {
                     loop={true} // Enable looping
                     speed={1000}
                     centeredSlides={true}
-                    autoplay={{ delay: 3000, disableOnInteraction: false }}
+                    autoplay={{ 
+                        delay: 3000, 
+                        disableOnInteraction: false 
+                    }}
                     modules={[Autoplay]}
                     breakpoints={{
                         // Responsive breakpoints
@@ -66,7 +76,7 @@ function SlideImage() {
                 </Swiper>
             </div>
         </div>
-    )
+    );
 }
 
-export default SlideImage
+export default SlideImage;

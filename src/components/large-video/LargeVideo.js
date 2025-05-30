@@ -4,11 +4,12 @@ import React, { useEffect, useState } from 'react';
 import ModalVideo from 'react-modal-video';
 import 'react-modal-video/css/modal-video.min.css';
 import { ReactSVG } from 'react-svg';
-function LargeVideo() {
 
+function LargeVideo() {
     const [isOpen, setIsOpen] = useState(false);
-    const videoLink = 'https://www.youtube.com/watch?v=tVbtTL_sJHI'; // Define the video link here
+    const videoLink = 'https://www.youtube.com/watch?v=7xTGNNLPyMI&t=12082s'; // Define the video link here
     const [videoId, setVideoId] = useState(null);
+
     useEffect(() => {
         // Extract the video ID from the video link
         if (videoLink) {
@@ -17,8 +18,6 @@ function LargeVideo() {
             setVideoId(id);
         }
     }, [videoLink]);
-    // Console log to debug
-    console.log('Video ID:', videoId);
 
     return (
         <div>
@@ -49,43 +48,31 @@ function LargeVideo() {
                         <div className="col-lg-12">
                             <div className="title-video-top">
                                 <p className="large">
-                                    We have built a{" "}
+                                    From Bengaluru’s tech heart, we deliver{" "}
                                     <span className="move-right" data-aos="move-right">
-                                        {" "}
-                                        purpose-driven
+                                        AI-driven
                                     </span>
-                                    platform in the Metaverse to drive action and cooperation and to{" "}
+                                    solutions to empower businesses and{" "}
                                     <span data-aos="move-left">
-                                        revolutionize
+                                        transform
                                     </span>{" "}
-                                    progress.
+                                    industries.
                                 </p>
                                 <p className="disc">
-                                    We have built a purpose-driven platform in the Metaverse to drive
-                                    action and cooperation and to revolutionize progress.
+                                    AiTweak’s cutting-edge NLP, computer vision, and predictive analytics solutions drive innovation, streamline operations, and unlock new opportunities for businesses worldwide.
                                 </p>
                             </div>
                         </div>
                         <div className="col-lg-12 mt--70">
                             <div className="image--large-video jarallax">
-                                {/* <img
-                                    className="jarallax-img"
-                                    src="assets/images/video/01.webp"
-                                    alt="large"
-                                /> */}
-
                                 <img
                                     className="jarallax-img"
                                     src="assets/images/gimages/pexels-googledeepmind-17483874.jpg"
-                                    alt="large"
+                                    alt="AI Innovation"
                                 />
                                 <div className="vedio-icone">
                                     <Link href={'#'} className="vedio-icone">
                                         <span id="play-video" className="video-play-button" onClick={() => setIsOpen(true)}>
-                                            {/* <img
-                                                    src="assets/images/about/shape/play-btn.png"
-                                                    alt="Play btn"
-                                                /> */}
                                             <span />
                                         </span>
                                     </Link>
@@ -95,14 +82,14 @@ function LargeVideo() {
                         <div className="col-lg-12">
                             <div className="large-video-bottom">
                                 <h2 className="title wow fadeInUp" data-wow-delay=".1s">
-                                    Download our Cloud Migration Guide
+                                    Download Our AI Transformation Guide
                                 </h2>
                                 <p className="disc wow fadeInUp" data-wow-delay=".3s">
-                                    Learn best practices, avoid common pitfalls, and discover how to
-                                    maximize the benefits of cloud computing for your business.
+                                    Discover how AiTweak’s AI solutions can revolutionize your business with best practices, real-world use cases, and strategies to maximize ROI in NLP, automation, and analytics.
                                 </p>
+                              
                                 <a
-                                    href="service-single.html"
+                                    href="/services"
                                     className="rts-btn btn-primary wow fadeInUp"
                                     data-wow-delay=".5s"
                                     style={{
@@ -111,7 +98,7 @@ function LargeVideo() {
                                         animationName: "fadeInUp"
                                     }}
                                 >
-                                    View Solutions
+                                    Explore AI Solutions
                                     <ReactSVG
                                         src="assets/images/service/icons/13.svg"
                                         alt="arrow"
@@ -127,7 +114,7 @@ function LargeVideo() {
                 <ModalVideo
                     channel="youtube"
                     isOpen={isOpen}
-                    videoId={videoId} // Pass the dynamic video ID here
+                    videoId={videoId}
                     onClose={() => setIsOpen(false)}
                 />
             )}

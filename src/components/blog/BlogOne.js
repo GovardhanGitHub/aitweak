@@ -2,7 +2,12 @@
 import React from 'react'
 import { ReactSVG } from 'react-svg';
 import Link from 'next/link';
+import Posts from '@/data/Posts.json';
+
 function BlogOne() {
+    // Get the latest 3 posts
+    const latestPosts = Posts.slice(0, 3);
+
     return (
         <div>
             {/* rts blog area strart */}
@@ -30,126 +35,40 @@ function BlogOne() {
                 </div>
                 <div className="container mt--50">
                     <div className="row g-0 wow fadeInUp" data-wow-offset={120}>
-                        <div className="col-lg-4">
-                            <div className="single-blog-area-start border-left">
-                                <Link href="/blog-grid/protecting-your-business" className="thumbnail">
-                                    <img
-                                        loading="lazy"
-                                        rel="preload"
-                                        src="assets/images/blog/01.webp"
-                                        alt="blog_iamge"
-                                    />
-                                </Link>
-                                <div className="inner-content-area">
-                                    <div className="top-area">
-                                        <span>Cloud Migration</span>
-                                        <Link href="/blog-grid/protecting-your-business">
-                                            <h3 className="title">Future of cloud computing</h3>
-                                        </Link>
-                                        <p className="disc">
-                                            How do you create compelling presentations that wow your
-                                            colleagues and impress your managers?
-                                        </p>
-                                        <div className="bottom-author-area">
-                                            <img
-                                                loading="lazy"
-                                                rel="preload"
-                                                src="assets/images/testimonials/01.png"
-                                                alt="author"
-                                            />
-                                            <div className="author-area-info">
-                                                <h6 className="title">Lage Freeman</h6>
-                                                <span>24 Sept 2024</span>
-                                            </div>
+                        {latestPosts.map((post) => (
+                            <div key={post.id} className="col-lg-4 p-1">
+                                <div className="single-blog-area-start border-left">
+                                    <Link href={`/blog-grid/${post.slug}`} className="thumbnail">
+                                        <img
+                                            loading="lazy"
+                                            rel="preload"
+                                            src={`assets/images/blog/${post.image}`}
+                                            alt={post.title}
+                                        />
+                                    </Link>
+                                    <div className="inner-content-area">
+                                        <div className="top-area">
+                                            <span>{post.category}</span>
+                                            <Link href={`/blog-grid/${post.slug}`}>
+                                                <h3 className="title">{post.title}</h3>
+                                            </Link>
+                                            <p className="disc">{post.descripTion}</p>
                                         </div>
+                                        {/* <div className="bottom-area">
+                                            <div className="publisher-area">
+                                                <Link href="#">
+                                                    <img src={post.authorImage} alt={post.author} />
+                                                </Link>
+                                                <div className="content">
+                                                    <Link href="#">{post.author}</Link>
+                                                    <span className="time">{post.publishedDate}</span>
+                                                </div>
+                                            </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="single-blog-area-start">
-                                <Link href="/blog-grid/protecting-your-business" className="thumbnail">
-                                    <img
-                                        loading="lazy"
-                                        rel="preload"
-                                        src="assets/images/blog/02.webp"
-                                        alt="blog_iamge"
-                                    />
-                                </Link>
-                                <div className="inner-content-area">
-                                    <div className="top-area">
-                                        <span>UX Design</span>
-                                        <Link href="/blog-grid/protecting-your-business">
-                                            <h3 className="title">UX review presentations</h3>
-                                        </Link>
-                                        <p className="disc">
-                                            How do you create compelling presentations that wow your
-                                            colleagues and impress your managers?
-                                        </p>
-                                        <div className="bottom-author-area">
-                                            <img
-                                                loading="lazy"
-                                                rel="preload"
-                                                src="assets/images/testimonials/02.png"
-                                                alt="author"
-                                            />
-                                            <div className="author-area-info">
-                                                <h6 className="title">Rock Freeman</h6>
-                                                <span>24 Sept 2024</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="single-blog-area-start">
-                                <Link href="/blog-grid/protecting-your-business" className="thumbnail">
-                                    <img
-                                        loading="lazy"
-                                        rel="preload"
-                                        src="assets/images/blog/03.webp"
-                                        alt="blog_iamge"
-                                    />
-                                </Link>
-                                <div className="inner-content-area">
-                                    <div className="top-area">
-                                        <span>Cyber Security</span>
-                                        <Link href="/blog-grid/protecting-your-business">
-                                            <h3 className="title">Protecting your business</h3>
-                                        </Link>
-                                        <p className="disc">
-                                            How do you create compelling presentations that wow your
-                                            colleagues and impress your managers?
-                                        </p>
-                                        <div className="bottom-author-area">
-                                            <img
-                                                loading="lazy"
-                                                rel="preload"
-                                                src="assets/images/testimonials/07.png"
-                                                alt="author"
-                                            />
-                                            <div className="author-area-info">
-                                                <h6 className="title">Marcus Freeman</h6>
-                                                <span>24 Sept 2024</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <Link href="blog-grid.html" className="rts-btn btn-border">
-                                View More Blog
-                                <ReactSVG
-                                    className="injectable"
-                                    src="assets/images/service/icons/13.svg"
-                                    alt="arrow"
-                                />
-                            </Link>
-                        </div>
+                        ))}
                     </div>
                 </div>
             </div>

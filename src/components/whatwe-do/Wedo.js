@@ -10,7 +10,7 @@ function Wedo() {
                         <div className="col-lg-12">
                             <div className="what-we-do-wrapper-about">
                                 <p className="disc">
-                                    Luminous is a leading IT solutions company that provides
+                                    AITweak is a leading  AI solutions company that provides
                                     innovative technology services to businesses of all sizes. We
                                     specialize in cloud computing, cybersecurity, data analytics, and
                                     custom software development.

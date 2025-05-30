@@ -1,0 +1,43 @@
+.service-single-area-banner {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.service-single-area-banner:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.career-single-banner-area {
+  background: var(--color-primary-light);
+  padding: 70px 0;
+  margin-bottom: 50px;
+}
+
+.career-single-banner-area .title {
+  color: var(--color-primary);
+  margin: 0;
+  font-size: 42px;
+  font-weight: 600;
+}
+
+/* Category-specific banner backgrounds */
+.core-service {
+  background-image: url('/assets/images/service/core-banner.webp');
+}
+
+.advanced-service {
+  background-image: url('/assets/images/service/advanced-banner.webp');
+}
+
+.specialized-service {
+  background-image: url('/assets/images/service/specialized-banner.webp');
+}

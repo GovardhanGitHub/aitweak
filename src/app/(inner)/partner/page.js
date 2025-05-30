@@ -74,7 +74,7 @@ export default function Home() {
                                             <span>Risk Assessment</span>
                                         </div>
                                         <div className="single-tag">
-                                            <span>IT Solutions</span>
+                                            <span> AI solutions</span>
                                         </div>
                                         <div className="single-tag">
                                             <span>Consulting Services</span>

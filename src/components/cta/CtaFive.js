@@ -11,7 +11,7 @@ function CtaFive() {
                         <div className="col-lg-12">
                             <div className="call-to-action-bg-dark-area">
                                 <h3 className="title">Start your Free Trial</h3>
-                                <p>Offers a 30-day free trial of Luminous Managed IT Services.</p>
+                                <p>Offers a 30-day free trial of AITweak Managed IT Services.</p>
                                 <a href="#" className="rts-btn btn-primary wow fadeInUp">
                                     Schedule Now
                                     <img

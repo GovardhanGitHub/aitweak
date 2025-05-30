@@ -41,7 +41,7 @@ function BannerTwo() {
                             {/* banner area start */}
                             <div className="rts-banner-area-two">
                                 <span data-aos-delay="100" data-aos="fade-up" data-aos-duration="1000">
-                                    IT Solutions Experts
+                                     AI solutions Experts
                                 </span>
                                 <h1 className="title" data-aos-delay="200" data-aos="fade-up" data-aos-duration="1000">
                                     Unified platform that fosters innovation

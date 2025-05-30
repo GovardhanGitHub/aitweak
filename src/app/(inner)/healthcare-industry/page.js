@@ -23,7 +23,7 @@ export default function Home() {
                                         committed to fostering a collaborative, inclusive, and dynamic
                                         work environment where every team member can thrive. If you are
                                         passionate about technology and dedicated to delivering
-                                        exceptional IT solutions, we want to hear from you!
+                                        exceptional  AI solutions, we want to hear from you!
                                     </p>
                                     <a href="#" className="rts-btn btn-primary btn-bold">
                                         Current Openings
