@@ -57,15 +57,15 @@ function FooterOne() {
                                             <li>
                                                 <Link href="/career">Careers</Link>
                                             </li>
-                                            <li>
+                                            {/* <li>
                                                 <Link href="/team">Our Team</Link>
-                                            </li>
+                                            </li> */}
                                             <li>
                                                 <Link href="/blog-grid">News</Link>
                                             </li>
-                                            <li>
+                                            {/* <li>
                                                 <Link href="/partner">Partner</Link>
-                                            </li>
+                                            </li> */}
                                             <li>
                                                 <Link href="/contact">Contact</Link>
                                             </li>

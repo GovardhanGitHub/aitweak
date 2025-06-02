@@ -1,9 +1,11 @@
 "use client"
 import React from 'react';
 import Link from 'next/link';
-import { aiServices } from '@/data/AiServices.json';
+import Image from 'next/image';
+import aiServicesData from '@/data/AiServices.json';
 
 export default function ServicesPage() {
+    const aiServices = aiServicesData.aiServices || [];
     return (
         <div className="rts-service-area rts-section-gap">
             <div className="container">
@@ -22,7 +24,7 @@ export default function ServicesPage() {
                         <div key={service.id} className="col-lg-4 col-md-6 col-sm-12">
                             <div className="service-card-alpha">
                                 <div className="icon">
-                                    <img src={service.icon} alt={service.title} />
+                                    <Image src={`/${service.icon.replace(/^\//, '')}`} alt={service.title} width={64} height={64} unoptimized />
                                 </div>
                                 <div className="content">
                                     <h4 className="title">
