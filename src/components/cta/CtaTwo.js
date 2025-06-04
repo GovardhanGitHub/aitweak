@@ -1,6 +1,8 @@
 "use client"
 import React from 'react'
 import { ReactSVG } from 'react-svg';
+import Image from 'next/image';
+
 function CtaTwo() {
     return (
         <div>
@@ -27,21 +29,30 @@ function CtaTwo() {
                     </div>
                 </div>
                 <div className="shape-iamge">
-                    <img
-                        src="assets/images/cta/03.png"
+                    <Image
+                        src="/assets/images/cta/03.png"
+                        width={120}
+                        height={120}
                         alt="cta"
                         className="one wow toBottomLeft"
                         data-wow-offset={150}
                     />
-                    <img
-                        src="assets/images/cta/04.png"
+                    <Image
+                        src="/assets/images/cta/04.png"
+                        width={120}
+                        height={120}
                         alt="cta"
                         className="two wow toTopRight"
                         data-wow-offset={150}
                     />
                 </div>
                 <div className="bg-cta-area-two">
-                    <img src="assets/images/cta/01.webp"></img>
+                    <Image 
+                        src="/assets/images/cta/01.webp" 
+                        width={400} 
+                        height={300} 
+                        alt="cta background"
+                    />
                 </div>
             </div>
             {/* rts cta area s */}

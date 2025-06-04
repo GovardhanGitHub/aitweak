@@ -2,6 +2,8 @@
 import React from 'react'
 import { ReactSVG } from 'react-svg';
 import { useEffect } from "react";
+import Image from 'next/image';
+
 function CaseFive() {
   return (
     <div>
@@ -22,7 +24,7 @@ function CaseFive() {
                 >
                 <div className="single-case-studies">
                     <a href="/case-studies-single" className="thumbnail">
-                    <img src="assets/images/case-studies/11.webp" alt="image" />
+                    <Image src="assets/images/case-studies/11.webp" width={400} height={300} alt="Evolus case study" />
                     </a>
                     <div className="inner-content">
                     <span>NodeJS Development, Security</span>
@@ -44,7 +46,7 @@ function CaseFive() {
                 >
                 <div className="single-case-studies">
                     <a href="/case-studies-single" className="thumbnail">
-                    <img src="assets/images/case-studies/12.webp" alt="image" />
+                    <Image src="assets/images/case-studies/12.webp" width={400} height={300} alt="Nextpart case study" />
                     </a>
                     <div className="inner-content">
                     <span>Cloud Migration, Web Design</span>
@@ -66,7 +68,7 @@ function CaseFive() {
                 >
                 <div className="single-case-studies">
                     <a href="/case-studies-single" className="thumbnail">
-                    <img src="assets/images/case-studies/13.webp" alt="image" />
+                    <Image src="assets/images/case-studies/13.webp" width={400} height={300} alt="Runtime case study" />
                     </a>
                     <div className="inner-content">
                     <span>Cloud Migration, Web Design</span>
@@ -88,7 +90,7 @@ function CaseFive() {
                 >
                 <div className="single-case-studies">
                     <a href="/case-studies-single" className="thumbnail">
-                    <img src="assets/images/case-studies/14.webp" alt="image" />
+                    <Image src="assets/images/case-studies/14.webp" width={400} height={300} alt="Waveflow case study" />
                     </a>
                     <div className="inner-content">
                     <span>NodeJS Development, Security</span>
@@ -113,7 +115,7 @@ function CaseFive() {
                     className="rts-btn btn-border more-project-btn"
                 >
                     More projects
-                    <img src="assets/images/service/icons/13.svg" alt="arrow" />
+                    <Image src="/assets/images/service/icons/13.svg" width={24} height={24} alt="arrow" />
                 </a>
                 </div>
             </div>

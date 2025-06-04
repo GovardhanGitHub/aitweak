@@ -1,6 +1,8 @@
 "use client"
 import React from 'react'
 import { ReactSVG } from 'react-svg';
+import Image from 'next/image';
+
 function CaseStudiesFour() {
     return (
         <div>
@@ -8,18 +10,22 @@ function CaseStudiesFour() {
             {/* case studies start */}
             <div className="case-studies-area rts-section-gap position-relative">
                 <div className="shape-left-top">
-                    <img
+                    <Image
                         className="wow move-right"
-                        src="assets/images/video/shape/03.png"
+                        src="/assets/images/video/shape/03.png"
                         alt="shape"
+                        width={80}
+                        height={80}
                     />
                 </div>
                 <div className="shape-bottom">
-                    <img
-                        src="assets/images/video/shape/02.png"
+                    <Image
+                        src="/assets/images/video/shape/02.png"
                         alt=""
                         className="wow move-left"
                         data-wow-offset={120}
+                        width={80}
+                        height={80}
                     />
                 </div>
                 <div className="container">
@@ -37,7 +43,7 @@ function CaseStudiesFour() {
                         >
                             <div className="single-case-studies">
                                 <a href="/case-studies-single" className="thumbnail">
-                                    <img src="assets/images/case-studies/01.webp" alt="image" />
+                                    <Image src="/assets/images/case-studies/01.webp" alt="image" width={600} height={400} />
                                 </a>
                                 <div className="inner-content">
                                     <span>NodeJS Development, Security</span>
@@ -59,7 +65,7 @@ function CaseStudiesFour() {
                         >
                             <div className="single-case-studies">
                                 <a href="/case-studies-single" className="thumbnail">
-                                    <img src="assets/images/case-studies/02.webp" alt="image" />
+                                    <Image src="/assets/images/case-studies/02.webp" alt="image" width={600} height={400} />
                                 </a>
                                 <div className="inner-content">
                                     <span>Cloud Migration, Web Design</span>
@@ -81,7 +87,7 @@ function CaseStudiesFour() {
                         >
                             <div className="single-case-studies">
                                 <a href="/case-studies-single" className="thumbnail">
-                                    <img src="assets/images/case-studies/03.webp" alt="image" />
+                                    <Image src="/assets/images/case-studies/03.webp" alt="image" width={600} height={400} />
                                 </a>
                                 <div className="inner-content">
                                     <span>Cloud Migration, Web Design</span>
@@ -103,7 +109,7 @@ function CaseStudiesFour() {
                         >
                             <div className="single-case-studies">
                                 <a href="/case-studies-single" className="thumbnail">
-                                    <img src="assets/images/case-studies/04.webp" alt="image" />
+                                    <Image src="/assets/images/case-studies/04.webp" alt="image" width={600} height={400} />
                                 </a>
                                 <div className="inner-content">
                                     <span>NodeJS Development, Security</span>
@@ -128,7 +134,7 @@ function CaseStudiesFour() {
                                 className="rts-btn btn-border more-project-btn"
                             >
                                 More projects
-                                <img src="assets/images/service/icons/13.svg" alt="arrow" />
+                                <Image src="/assets/images/service/icons/13.svg" alt="arrow" width={24} height={24} />
                             </a>
                         </div>
                     </div>

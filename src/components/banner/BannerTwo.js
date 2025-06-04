@@ -4,6 +4,8 @@ import React, { useEffect } from 'react';
 import { ReactSVG } from 'react-svg';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Image from 'next/image';
+
 function BannerTwo() {
     // useEffect(() => {
     //     // Initialize Jarallax when the component mounts
@@ -22,17 +24,21 @@ function BannerTwo() {
             {/* rts banner area start */}
             <div className="rts-banner-area-style-narrow rts-section-gapTop position-relative">
                 <div className="shape-top-right">
-                    <img
+                    <Image
                         className="wow toBottomLeft"
-                        src="assets/images/banner/shape/02.png"
-                        alt=""
+                        src="/assets/images/banner/shape/02.png"
+                        width={120}
+                        height={120}
+                        alt="banner shape"
                     />
                 </div>
                 <div className="shape-bottom-left">
-                    <img
+                    <Image
                         className="wow toTopRight"
-                        src="assets/images/banner/shape/04.png"
-                        alt=""
+                        src="/assets/images/banner/shape/04.png"
+                        width={120}
+                        height={120}
+                        alt="banner shape"
                     />
                 </div>
                 <div className="container">
@@ -80,16 +86,20 @@ function BannerTwo() {
                         <div className="col-lg-12">
                             <div className="image-banner-cottom-wrapper">
                                 <div className="single-leftt-large-iamge jarallax jara-mask-1">
-                                    <img
+                                    <Image
                                         className="jarallax-img"
-                                        src="assets/images/banner/01.webp"
+                                        src="/assets/images/banner/01.webp"
+                                        width={600}
+                                        height={400}
                                         alt="banner"
                                     />
                                 </div>
                                 <div className="single-right-large-iamge jarallax jara-mask-1">
-                                    <img
+                                    <Image
                                         className="jarallax-img"
-                                        src="assets/images/banner/02.webp"
+                                        src="/assets/images/banner/02.webp"
+                                        width={600}
+                                        height={400}
                                         alt="banner"
                                     />
                                 </div>

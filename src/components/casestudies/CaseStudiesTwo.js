@@ -5,6 +5,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 import { ReactSVG } from 'react-svg';
+import Image from 'next/image';
+
 const CaseStudiesTwo = () => {
     const caseStudies = [
         {
@@ -71,7 +73,7 @@ const CaseStudiesTwo = () => {
                                         <SwiperSlide key={index}>
                                             <div className="single-case-studies style-swiper">
                                                 <a href={study.link} className="thumbnail">
-                                                    <img src={study.imgSrc} alt="image" />
+                                                    <Image src={`/${study.imgSrc.replace(/^\//, '')}`} alt="image" width={500} height={300} />
                                                 </a>
                                                 <div className="inner-content">
                                                     <span>{study.category}</span>

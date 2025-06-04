@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function CaseStudiesThree() {
     return (
@@ -23,9 +24,11 @@ function CaseStudiesThree() {
                         >
                             <div className="single-case-studies-three">
                                 <a href="/case-studies-single" className="thumbnail">
-                                    <img
+                                    <Image
                                         src="assets/images/case-studies/05.webp"
                                         alt="case-studies"
+                                        width={500}
+                                        height={300}
                                     />
                                 </a>
                                 <div className="inner-content">
@@ -44,9 +47,11 @@ function CaseStudiesThree() {
                         >
                             <div className="single-case-studies-three">
                                 <a href="/case-studies-single" className="thumbnail">
-                                    <img
+                                    <Image
                                         src="assets/images/case-studies/06.webp"
                                         alt="case-studies"
+                                        width={500}
+                                        height={300}
                                     />
                                 </a>
                                 <div className="inner-content">
@@ -62,9 +67,11 @@ function CaseStudiesThree() {
                         >
                             <div className="single-case-studies-three">
                                 <a href="/case-studies-single" className="thumbnail">
-                                    <img
+                                    <Image
                                         src="assets/images/case-studies/07.webp"
                                         alt="case-studies"
+                                        width={500}
+                                        height={300}
                                     />
                                 </a>
                                 <div className="inner-content">
@@ -83,9 +90,11 @@ function CaseStudiesThree() {
                         >
                             <div className="single-case-studies-three">
                                 <a href="/case-studies-single" className="thumbnail">
-                                    <img
+                                    <Image
                                         src="assets/images/case-studies/08.webp"
                                         alt="case-studies"
+                                        width={500}
+                                        height={300}
                                     />
                                 </a>
                                 <div className="inner-content">
@@ -104,9 +113,11 @@ function CaseStudiesThree() {
                         >
                             <div className="single-case-studies-three">
                                 <a href="/case-studies-single" className="thumbnail">
-                                    <img
+                                    <Image
                                         src="assets/images/case-studies/09.webp"
                                         alt="case-studies"
+                                        width={500}
+                                        height={300}
                                     />
                                 </a>
                                 <div className="inner-content">
@@ -125,9 +136,11 @@ function CaseStudiesThree() {
                         >
                             <div className="single-case-studies-three">
                                 <a href="/case-studies-single" className="thumbnail">
-                                    <img
+                                    <Image
                                         src="assets/images/case-studies/10.webp"
                                         alt="case-studies"
+                                        width={500}
+                                        height={300}
                                     />
                                 </a>
                                 <div className="inner-content">

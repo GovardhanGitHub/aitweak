@@ -1,5 +1,6 @@
 "use client"
 import { useEffect } from "react";
+import Image from 'next/image';
 
 function CtaSeven() {
     useEffect(() => {
@@ -52,14 +53,18 @@ function CtaSeven() {
                                 </a>
                             </div>
                             <div className="shape-area">
-                                <img
-                                    src="assets/images/cta/05.png"
+                                <Image
+                                    src="/assets/images/cta/05.png"
+                                    width={120}
+                                    height={120}
                                     alt="cta"
                                     className="one wow toBottomLeft"
                                     style={{ visibility: "visible", animationName: "toBottomLeft" }}
                                 />
-                                <img
-                                    src="assets/images/cta/06.png"
+                                <Image
+                                    src="/assets/images/cta/06.png"
+                                    width={120}
+                                    height={120}
                                     alt="cta"
                                     className="two wow toTopRight"
                                     style={{ visibility: "visible", animationName: "toTopRight" }}
