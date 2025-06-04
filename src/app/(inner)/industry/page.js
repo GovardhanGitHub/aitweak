@@ -1,3 +1,4 @@
+"use client"
 import BackToTop from "@/components/common/BackToTop";
 import Nav from "@/components/header/Nav";
 import FooterOne from "@/components/footer/FooterOne";

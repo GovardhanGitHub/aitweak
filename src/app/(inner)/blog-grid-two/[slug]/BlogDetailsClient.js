@@ -107,9 +107,9 @@ export default function BlogDetailsClient({ blogPost }) {
                     {/* quote area start */}
                     <div className="rts-quote-area text-center">
                       <h5 className="title">
-                        "Placerat pretium tristique mattis tellus accuan metus
+                        &ldquo;Placerat pretium tristique mattis tellus accuan metus
                         dictumst vivamus odio nulla fusce auctor into suscipit
-                        habitasse class congue potenti iaculis"
+                        habitasse class congue potenti iaculis&rdquo;
                       </h5>
                       <a href="#" className="name">
                         Daniel X. Horrar
