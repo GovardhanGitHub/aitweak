@@ -6,6 +6,7 @@ import HeaderTwo from "@/components/header/HeaderTwo";
 import FeatureTwo from "@/components/feature/FeatureTwo";
 import TestimonialsFive from "@/components/testimonials/TestimonialsFive";
 import MoreSolutions from "@/components/service-component/MoreSolution";
+import Image from 'next/image';
 
 export default function Home() {
     return (
@@ -70,18 +71,22 @@ export default function Home() {
                         <div className="row g-5">
                             <div className="col-lg-6">
                                 <div className="thumbnail-area-large-service-detaile-mid jarallax jara-mask-1">
-                                    <img
+                                    <img 
                                         className="jarallax-img"
-                                        src="assets/images/service/07.webp"
+                                        src="/assets/images/service/07.webp"
+                                        width={600}
+                                        height={400}
                                         alt="service"
                                     />
                                 </div>
                             </div>
                             <div className="col-lg-6">
                                 <div className="thumbnail-area-large-service-detaile-mid jarallax jara-mask-1">
-                                    <img
+                                    <img 
                                         className="jarallax-img"
-                                        src="assets/images/service/08.webp"
+                                        src="/assets/images/service/08.webp"
+                                        width={600}
+                                        height={400}
                                         alt="service"
                                     />
                                 </div>

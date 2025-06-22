@@ -2,6 +2,8 @@
 import React from "react";
 import { useEffect } from "react";
 import Rellax from "rellax";
+import Image from 'next/image';
+
 function AboutBanner() {
     useEffect(() => {
         if (typeof window !== "undefined") {
@@ -24,7 +26,7 @@ function AboutBanner() {
                             <div className="col-lg-3 col-md-6 col-sm-6">
                                 <div className="single-counter-up-one border-top border-left">
                                     <div className="icon-area">
-                                        <img src="assets/images/about/icons/01.svg" alt="icon" />
+                                        <img src="/assets/images/about/icons/01.svg" width={48} height={48} alt="icon" />
                                     </div>
                                     <p>Accelerate Growth</p>
                                     <h3 className="title">
@@ -35,7 +37,7 @@ function AboutBanner() {
                             <div className="col-lg-3 col-md-6 col-sm-6">
                                 <div className="single-counter-up-one border-top">
                                     <div className="icon-area">
-                                        <img src="assets/images/about/icons/02.svg" alt="icon" />
+                                        <img src="/assets/images/about/icons/02.svg" width={48} height={48} alt="icon" />
                                     </div>
                                     <p>Community users</p>
                                     <h3 className="title">
@@ -46,7 +48,7 @@ function AboutBanner() {
                             <div className="col-lg-3 col-md-6 col-sm-6">
                                 <div className="single-counter-up-one border-top">
                                     <div className="icon-area">
-                                        <img src="assets/images/about/icons/03.svg" alt="icon" />
+                                        <img src="/assets/images/about/icons/03.svg" width={48} height={48} alt="icon" />
                                     </div>
                                     <p>Enhance Security</p>
                                     <h3 className="title">
@@ -57,7 +59,7 @@ function AboutBanner() {
                             <div className="col-lg-3 col-md-6 col-sm-6">
                                 <div className="single-counter-up-one border-top">
                                     <div className="icon-area">
-                                        <img src="assets/images/about/icons/04.svg" alt="icon" />
+                                        <img src="/assets/images/about/icons/04.svg" width={48} height={48} alt="icon" />
                                     </div>
                                     <p>Reduce Costs</p>
                                     <h3 className="title">

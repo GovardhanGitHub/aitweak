@@ -47,7 +47,7 @@ function IndustryDetails() {
             <div className="col-lg-8">
               <div className="service-details-content-area">
                 <div className="thumbnail mb--30">
-                  <Image 
+                  <img 
                     src={`/assets/images/industry/${cleanSlug}.webp`}
                     alt={`${industry.title} Industry Solutions`}
                     width={800}

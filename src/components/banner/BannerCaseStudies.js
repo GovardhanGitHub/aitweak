@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import React from 'react'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Image from 'next/image';
 
 function BannerCaseStudies() {
     useEffect(() => {
@@ -27,7 +28,7 @@ function BannerCaseStudies() {
                     </div>
                 </div>
                 <div className="shape-left-top">
-                    <img src="assets/images/case-studies/01.png" alt="case" />
+                    <img src="/assets/images/case-studies/01.png" width={600} height={400} alt="case" />
                 </div>
             </div>
             {/* rts case studies banner area end */}
@@ -38,7 +39,7 @@ function BannerCaseStudies() {
                         <div className="col-lg-12">
                             <div className="single-case-studies">
                                 <div className="thumbnail">
-                                    <img src="assets/images/case-studies/18.webp" alt="Healthcare AI" />
+                                    <img src="/assets/images/case-studies/18.webp" width={600} height={400} alt="Healthcare AI" />
                                 </div>
                                 <div className="inner-content">
                                     <span>Healthcare, Natural Language Processing</span>
@@ -54,7 +55,7 @@ function BannerCaseStudies() {
                         >
                             <div className="single-case-studies">
                                 <div className="thumbnail">
-                                    <img src="assets/images/case-studies/01.webp" alt="Retail AI" />
+                                    <img src="/assets/images/case-studies/01.webp" width={600} height={400} alt="Retail AI" />
                                 </div>
                                 <div className="inner-content">
                                     <span>Retail, Predictive Analytics</span>
@@ -70,7 +71,7 @@ function BannerCaseStudies() {
                         >
                             <div className="single-case-studies">
                                 <div className="thumbnail">
-                                    <img src="assets/images/case-studies/03.webp" alt="Agriculture AI" />
+                                    <img src="/assets/images/case-studies/03.webp" width={600} height={400} alt="Agriculture AI" />
                                 </div>
                                 <div className="inner-content">
                                     <span>Agriculture, Computer Vision</span>
@@ -86,7 +87,7 @@ function BannerCaseStudies() {
                         >
                             <div className="single-case-studies">
                                 <div className="thumbnail">
-                                    <img src="assets/images/case-studies/02.webp" alt="Fintech AI" />
+                                    <img src="/assets/images/case-studies/02.webp" width={600} height={400} alt="Fintech AI" />
                                 </div>
                                 <div className="inner-content">
                                     <span>Fintech, Intelligent Automation</span>
@@ -102,7 +103,7 @@ function BannerCaseStudies() {
                         >
                             <div className="single-case-studies">
                                 <div className="thumbnail">
-                                    <img src="assets/images/case-studies/04.webp" alt="Manufacturing AI" />
+                                    <img src="/assets/images/case-studies/04.webp" width={600} height={400} alt="Manufacturing AI" />
                                 </div>
                                 <div className="inner-content">
                                     <span>Manufacturing, Predictive Maintenance</span>
@@ -118,7 +119,7 @@ function BannerCaseStudies() {
                         >
                             <div className="single-case-studies">
                                 <div className="thumbnail">
-                                    <img src="assets/images/case-studies/19.webp" alt="Transportation AI" />
+                                    <img src="/assets/images/case-studies/19.webp" width={600} height={400} alt="Transportation AI" />
                                 </div>
                                 <div className="inner-content">
                                     <span>Transportation, Computer Vision</span>
@@ -134,7 +135,7 @@ function BannerCaseStudies() {
                         >
                             <div className="single-case-studies">
                                 <div className="thumbnail">
-                                    <img src="assets/images/case-studies/01.webp" alt="Healthcare AI" />
+                                    <img src="/assets/images/case-studies/01.webp" width={600} height={400} alt="Healthcare AI" />
                                 </div>
                                 <div className="inner-content">
                                     <span>Healthcare, Predictive Analytics</span>
@@ -150,7 +151,7 @@ function BannerCaseStudies() {
                         >
                             <div className="single-case-studies">
                                 <div className="thumbnail">
-                                    <img src="assets/images/case-studies/03.webp" alt="Retail AI" />
+                                    <img src="/assets/images/case-studies/03.webp" width={600} height={400} alt="Retail AI" />
                                 </div>
                                 <div className="inner-content">
                                     <span>Retail, Natural Language Processing</span>
@@ -166,7 +167,7 @@ function BannerCaseStudies() {
                         >
                             <div className="single-case-studies">
                                 <div className="thumbnail">
-                                    <img src="assets/images/case-studies/02.webp" alt="Agriculture AI" />
+                                    <img src="/assets/images/case-studies/02.webp" width={600} height={400} alt="Agriculture AI" />
                                 </div>
                                 <div className="inner-content">
                                     <span>Agriculture, Predictive Analytics</span>
@@ -182,7 +183,7 @@ function BannerCaseStudies() {
                         >
                             <div className="single-case-studies">
                                 <div className="thumbnail">
-                                    <img src="assets/images/case-studies/04.webp" alt="Fintech AI" />
+                                    <img src="/assets/images/case-studies/04.webp" width={600} height={400} alt="Fintech AI" />
                                 </div>
                                 <div className="inner-content">
                                     <span>Fintech, Computer Vision</span>

@@ -48,7 +48,7 @@ function SideBar({ isSidebarOpen, toggleSidebar }) {
                         onClick={toggleSidebar}
                         className="mobile-service-item"
                       >
-                        <Image
+                        <img 
                           src={`/${service.icon}`}
                           alt={service.title}
                           width={24}
@@ -68,7 +68,7 @@ function SideBar({ isSidebarOpen, toggleSidebar }) {
                         onClick={toggleSidebar}
                         className="mobile-service-item"
                       >
-                        <Image
+                        <img 
                           src={`/${service.icon}`}
                           alt={service.title}
                           width={24}
@@ -88,7 +88,7 @@ function SideBar({ isSidebarOpen, toggleSidebar }) {
                         onClick={toggleSidebar}
                         className="mobile-service-item"
                       >
-                        <Image
+                        <img 
                           src={`/${service.icon}`}
                           alt={service.title}
                           width={24}

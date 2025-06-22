@@ -5,6 +5,8 @@ import BackToTop from "@/components/common/BackToTop";
 import FooterOne from "@/components/footer/FooterOne";
 import CtaOne from "@/components/cta/CtaOne";
 import Accordion from "react-bootstrap/Accordion";
+import Image from 'next/image';
+
 function page() {
     return (
         <>
@@ -23,19 +25,23 @@ function page() {
                     <div className="row g-5">
                         <div className="col-lg-4">
                             <div className="thumbnail-banner-choose-us jarallax" data-speed=".8">
-                                <img
-                                    src="assets/images/banner/06.webp"
+                                <img 
+                                    src="/assets/images/banner/06.webp"
                                     className="jarallax-img"
                                     alt="banner"
+                                    width={400}
+                                    height={300}
                                 />
                             </div>
                         </div>
                         <div className="col-lg-8">
                             <div className="thumbnail-banner-choose-us jarallax" data-speed=".8">
-                                <img
-                                    src="assets/images/banner/07.webp"
+                                <img 
+                                    src="/assets/images/banner/07.webp"
                                     className="jarallax-img"
                                     alt="banner"
+                                    width={400}
+                                    height={300}
                                 />
                             </div>
                         </div>
@@ -64,19 +70,19 @@ function page() {
                                 <h3 className="title">Choose AiTweak  AI solutions for:</h3>
                                 <div className="check-wrapper">
                                     <div className="single-check">
-                                        <img src="assets/images/service/01.svg" alt="service" />
+                                        <img src="/assets/images/service/01.svg" alt="service" width={48} height={48} />
                                         <p>Expertise You Can Trust</p>
                                     </div>
                                     <div className="single-check">
-                                        <img src="assets/images/service/01.svg" alt="service" />
+                                        <img src="/assets/images/service/01.svg" alt="service" width={48} height={48} />
                                         <p>Revolutionizing Customer Service</p>
                                     </div>
                                     <div className="single-check">
-                                        <img src="assets/images/service/01.svg" alt="service" />
+                                        <img src="/assets/images/service/01.svg" alt="service" width={48} height={48} />
                                         <p>Transforming a Healthcare Provider</p>
                                     </div>
                                     <div className="single-check">
-                                        <img src="assets/images/service/01.svg" alt="service" />
+                                        <img src="/assets/images/service/01.svg" alt="service" width={48} height={48} />
                                         <p>Enhancing Data-Driven Decisions</p>
                                     </div>
                                 </div>
@@ -95,7 +101,7 @@ function page() {
                         </div>
                         <div className="col-lg-7">
                             <div className="thumbnail-main-wrapper-choose-us">
-                                <img src="assets/images/service/09.webp" alt="service" />
+                                <img src="/assets/images/service/09.webp" alt="service" width={400} height={400} />
                             </div>
                         </div>
                     </div>
@@ -119,7 +125,7 @@ function page() {
                                 </div>
                             </div>
                             <div className="thumbnail-working-process">
-                                <img src="assets/images/service/10.webp" alt="" />
+                                <img src="/assets/images/service/10.webp" alt="service" width={400} height={400} />
                             </div>
                         </div>
                         <div className="col-lg-6">
@@ -238,7 +244,7 @@ function page() {
                         </div>
                         <div className="col-lg-6">
                             <div className="why-choose-faq-thumbnail">
-                                <img src="assets/images/why-choose-us/01.webp" alt="why" />
+                                <img src="/assets/images/why-choose-us/01.webp" alt="why" width={400} height={400} />
                             </div>
                         </div>
                     </div>
@@ -264,41 +270,51 @@ function page() {
                                         </div>
                                         <a href="contact.html" className="rts-btn btn-border btn-bold">
                                             Select Plan
-                                            <img src="assets/images/service/icons/13.svg" alt="arrow" />
+                                            <img src="/assets/images/service/icons/13.svg" alt="arrow" width={24} height={24} />
                                         </a>
                                         <div className="body">
                                             <div className="check-single">
-                                                <img
-                                                    src="assets/images/why-choose-us/01.svg"
+                                                <img 
+                                                    src="/assets/images/why-choose-us/01.svg"
                                                     alt="why-choose-faq-thumbnail"
+                                                    width={48}
+                                                    height={48}
                                                 />
                                                 <p>Everything in Basic Plan, plus:</p>
                                             </div>
                                             <div className="check-single">
-                                                <img
-                                                    src="assets/images/why-choose-us/01.svg"
+                                                <img 
+                                                    src="/assets/images/why-choose-us/01.svg"
                                                     alt="why-choose-faq-thumbnail"
+                                                    width={48}
+                                                    height={48}
                                                 />
                                                 <p>24/7 IT Support (Phone &amp; Chat)</p>
                                             </div>
                                             <div className="check-single">
-                                                <img
-                                                    src="assets/images/why-choose-us/01.svg"
+                                                <img 
+                                                    src="/assets/images/why-choose-us/01.svg"
                                                     alt="why-choose-faq-thumbnail"
+                                                    width={48}
+                                                    height={48}
                                                 />
                                                 <p>Data Backup (Weekly)</p>
                                             </div>
                                             <div className="check-single disable">
-                                                <img
-                                                    src="assets/images/why-choose-us/02.svg"
+                                                <img 
+                                                    src="/assets/images/why-choose-us/02.svg"
                                                     alt="why-choose-faq-thumbnail"
+                                                    width={48}
+                                                    height={48}
                                                 />
                                                 <p>Cloud Storage (Up to 200GB)</p>
                                             </div>
                                             <div className="check-single disable">
-                                                <img
-                                                    src="assets/images/why-choose-us/02.svg"
+                                                <img 
+                                                    src="/assets/images/why-choose-us/02.svg"
                                                     alt="why-choose-faq-thumbnail"
+                                                    width={48}
+                                                    height={48}
                                                 />
                                                 <p>Software Integration Support</p>
                                             </div>
@@ -317,41 +333,51 @@ function page() {
                                         </div>
                                         <a href="contact.html" className="rts-btn btn-border btn-bold">
                                             Select Plan
-                                            <img src="assets/images/service/icons/13.svg" alt="arrow" />
+                                            <img src="/assets/images/service/icons/13.svg" alt="arrow" width={24} height={24} />
                                         </a>
                                         <div className="body">
                                             <div className="check-single">
-                                                <img
-                                                    src="assets/images/why-choose-us/01.svg"
+                                                <img 
+                                                    src="/assets/images/why-choose-us/01.svg"
                                                     alt="why-choose-faq-thumbnail"
+                                                    width={48}
+                                                    height={48}
                                                 />
                                                 <p>Everything in Basic Plan, plus:</p>
                                             </div>
                                             <div className="check-single">
-                                                <img
-                                                    src="assets/images/why-choose-us/01.svg"
+                                                <img 
+                                                    src="/assets/images/why-choose-us/01.svg"
                                                     alt="why-choose-faq-thumbnail"
+                                                    width={48}
+                                                    height={48}
                                                 />
                                                 <p>24/7 IT Support (Phone &amp; Chat)</p>
                                             </div>
                                             <div className="check-single">
-                                                <img
-                                                    src="assets/images/why-choose-us/01.svg"
+                                                <img 
+                                                    src="/assets/images/why-choose-us/01.svg"
                                                     alt="why-choose-faq-thumbnail"
+                                                    width={48}
+                                                    height={48}
                                                 />
                                                 <p>Data Backup (Weekly)</p>
                                             </div>
                                             <div className="check-single">
-                                                <img
-                                                    src="assets/images/why-choose-us/01.svg"
+                                                <img 
+                                                    src="/assets/images/why-choose-us/01.svg"
                                                     alt="why-choose-faq-thumbnail"
+                                                    width={48}
+                                                    height={48}
                                                 />
                                                 <p>Cloud Storage (Up to 200GB)</p>
                                             </div>
                                             <div className="check-single">
-                                                <img
-                                                    src="assets/images/why-choose-us/01.svg"
+                                                <img 
+                                                    src="/assets/images/why-choose-us/01.svg"
                                                     alt="why-choose-faq-thumbnail"
+                                                    width={48}
+                                                    height={48}
                                                 />
                                                 <p>Software Integration Support</p>
                                             </div>

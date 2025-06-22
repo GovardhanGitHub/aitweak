@@ -3,6 +3,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules"; // Import necessary Swiper modules
 import "swiper/css";
+import Image from "next/image";
 
 export default function MoreSolutions() {
     const solutions = [
@@ -91,15 +92,22 @@ export default function MoreSolutions() {
                                     <div className="single-service-style-two">
                                         <div className="inner">
                                             <div className="icon">
-                                                <img src={solution.icon} alt={solution.title} />
+                                                <img 
+                                                    src={solution.icon}
+                                                    alt={solution.title}
+                                                    width={48}
+                                                    height={48}
+                                                />
                                             </div>
                                             <div className="bottom">
                                                 <a href="#">
                                                     <h3 className="title animated fadeIn">
                                                         {solution.title}
-                                                        <img
+                                                        <img 
                                                             src="/assets/images/service/icons/13.svg"
-                                                            alt="service"
+                                                            alt="arrow"
+                                                            width={24}
+                                                            height={24}
                                                         />
                                                     </h3>
                                                     <p className="disc">{solution.description}</p>

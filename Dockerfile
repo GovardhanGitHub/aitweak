@@ -20,28 +20,19 @@ COPY . .
 ENV NEXT_TELEMETRY_DISABLED=1
 
 RUN bun run build
+# Create a static export of the site
+RUN bun run next export || mkdir -p out && cp -r .next/static out/ && cp -r public/* out/
 
-# Production image, copy all the files and run next
-FROM base AS runner
-WORKDIR /app
+# Use Nginx to serve static files
+FROM nginx:alpine AS runner
+WORKDIR /usr/share/nginx/html
 
-ENV NODE_ENV=production
-# Disable telemetry
-ENV NEXT_TELEMETRY_DISABLED=1
+# Copy the static output from builder
+COPY --from=builder /app/out .
+# Copy custom Nginx config if needed
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-RUN adduser --system --uid 1001 nextjs
+EXPOSE 80
 
-# Copy the built application
-COPY --from=builder --chown=nextjs:bun /app/.next ./.next
-COPY --from=builder --chown=nextjs:bun /app/public ./public
-COPY --from=builder --chown=nextjs:bun /app/package.json ./package.json
-COPY --from=builder --chown=nextjs:bun /app/node_modules ./node_modules
-
-USER nextjs
-
-EXPOSE 3000
-
-ENV PORT=3000
-ENV HOSTNAME="0.0.0.0"
-
-CMD ["bun", "start"]
+# No need for environment variables since we're serving static files
+CMD ["nginx", "-g", "daemon off;"]

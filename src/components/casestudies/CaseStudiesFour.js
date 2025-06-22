@@ -10,7 +10,7 @@ function CaseStudiesFour() {
             {/* case studies start */}
             <div className="case-studies-area rts-section-gap position-relative">
                 <div className="shape-left-top">
-                    <Image
+                    <img 
                         className="wow move-right"
                         src="/assets/images/video/shape/03.png"
                         alt="shape"
@@ -19,7 +19,7 @@ function CaseStudiesFour() {
                     />
                 </div>
                 <div className="shape-bottom">
-                    <Image
+                    <img 
                         src="/assets/images/video/shape/02.png"
                         alt=""
                         className="wow move-left"
@@ -43,7 +43,7 @@ function CaseStudiesFour() {
                         >
                             <div className="single-case-studies">
                                 <a href="/case-studies-single" className="thumbnail">
-                                    <Image src="/assets/images/case-studies/01.webp" alt="image" width={600} height={400} />
+                                    <img src="/assets/images/case-studies/01.webp" alt="image" width={600} height={400} />
                                 </a>
                                 <div className="inner-content">
                                     <span>NodeJS Development, Security</span>
@@ -65,7 +65,7 @@ function CaseStudiesFour() {
                         >
                             <div className="single-case-studies">
                                 <a href="/case-studies-single" className="thumbnail">
-                                    <Image src="/assets/images/case-studies/02.webp" alt="image" width={600} height={400} />
+                                    <img src="/assets/images/case-studies/02.webp" alt="image" width={600} height={400} />
                                 </a>
                                 <div className="inner-content">
                                     <span>Cloud Migration, Web Design</span>
@@ -87,7 +87,7 @@ function CaseStudiesFour() {
                         >
                             <div className="single-case-studies">
                                 <a href="/case-studies-single" className="thumbnail">
-                                    <Image src="/assets/images/case-studies/03.webp" alt="image" width={600} height={400} />
+                                    <img src="/assets/images/case-studies/03.webp" alt="image" width={600} height={400} />
                                 </a>
                                 <div className="inner-content">
                                     <span>Cloud Migration, Web Design</span>
@@ -109,7 +109,7 @@ function CaseStudiesFour() {
                         >
                             <div className="single-case-studies">
                                 <a href="/case-studies-single" className="thumbnail">
-                                    <Image src="/assets/images/case-studies/04.webp" alt="image" width={600} height={400} />
+                                    <img src="/assets/images/case-studies/04.webp" alt="image" width={600} height={400} />
                                 </a>
                                 <div className="inner-content">
                                     <span>NodeJS Development, Security</span>
@@ -134,7 +134,7 @@ function CaseStudiesFour() {
                                 className="rts-btn btn-border more-project-btn"
                             >
                                 More projects
-                                <Image src="/assets/images/service/icons/13.svg" alt="arrow" width={24} height={24} />
+                                <img src="/assets/images/service/icons/13.svg" alt="arrow" width={24} height={24} />
                             </a>
                         </div>
                     </div>

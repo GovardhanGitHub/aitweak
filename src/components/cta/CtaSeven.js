@@ -53,7 +53,7 @@ function CtaSeven() {
                                 </a>
                             </div>
                             <div className="shape-area">
-                                <Image
+                                <img 
                                     src="/assets/images/cta/05.png"
                                     width={120}
                                     height={120}
@@ -61,7 +61,7 @@ function CtaSeven() {
                                     className="one wow toBottomLeft"
                                     style={{ visibility: "visible", animationName: "toBottomLeft" }}
                                 />
-                                <Image
+                                <img 
                                     src="/assets/images/cta/06.png"
                                     width={120}
                                     height={120}

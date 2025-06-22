@@ -69,7 +69,7 @@ export default function BlogDetailsClient({ blogPost }) {
               <div className="col-xl-8 col-md-12 col-sm-12 col-12">
                 <div className="blog-single-post-listing details mb--0">
                   <div className="thumbnail">
-                    <Image 
+                    <img 
                       src={blogPost.bannerImg || "/assets/images/blog/01.webp"}
                       alt={blogPost.title}
                       width={900}

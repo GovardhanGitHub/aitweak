@@ -24,7 +24,7 @@ function BannerTwo() {
             {/* rts banner area start */}
             <div className="rts-banner-area-style-narrow rts-section-gapTop position-relative">
                 <div className="shape-top-right">
-                    <Image
+                    <img 
                         className="wow toBottomLeft"
                         src="/assets/images/banner/shape/02.png"
                         width={120}
@@ -33,7 +33,7 @@ function BannerTwo() {
                     />
                 </div>
                 <div className="shape-bottom-left">
-                    <Image
+                    <img 
                         className="wow toTopRight"
                         src="/assets/images/banner/shape/04.png"
                         width={120}
@@ -86,7 +86,7 @@ function BannerTwo() {
                         <div className="col-lg-12">
                             <div className="image-banner-cottom-wrapper">
                                 <div className="single-leftt-large-iamge jarallax jara-mask-1">
-                                    <Image
+                                    <img 
                                         className="jarallax-img"
                                         src="/assets/images/banner/01.webp"
                                         width={600}
@@ -95,7 +95,7 @@ function BannerTwo() {
                                     />
                                 </div>
                                 <div className="single-right-large-iamge jarallax jara-mask-1">
-                                    <Image
+                                    <img 
                                         className="jarallax-img"
                                         src="/assets/images/banner/02.webp"
                                         width={600}

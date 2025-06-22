@@ -1,10 +1,12 @@
 services:
   prod:
-    container_name: nextjs-bun-app
-    image: nextjs-bun-app
+    container_name: nextjs-static-site
+    image: nextjs-static-site
     build:
       context: .
       dockerfile: Dockerfile
     ports:
-      - 31034:3000
+      - 8096:80
     restart: unless-stopped
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf

@@ -29,7 +29,7 @@ function CtaTwo() {
                     </div>
                 </div>
                 <div className="shape-iamge">
-                    <Image
+                    <img 
                         src="/assets/images/cta/03.png"
                         width={120}
                         height={120}
@@ -37,7 +37,7 @@ function CtaTwo() {
                         className="one wow toBottomLeft"
                         data-wow-offset={150}
                     />
-                    <Image
+                    <img 
                         src="/assets/images/cta/04.png"
                         width={120}
                         height={120}
@@ -47,7 +47,7 @@ function CtaTwo() {
                     />
                 </div>
                 <div className="bg-cta-area-two">
-                    <Image 
+                    <img 
                         src="/assets/images/cta/01.webp" 
                         width={400} 
                         height={300} 

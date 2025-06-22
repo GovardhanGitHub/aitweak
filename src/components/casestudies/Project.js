@@ -67,7 +67,7 @@ const ProjectsArea = () => {
                                         <SwiperSlide>
                                             <div className="single-project-area-5">
                                                 <a href="#" className="thumbnail">
-                                                    <Image
+                                                    <img 
                                                         src="/assets/images/case-studies/15.webp"
                                                         alt="case-studies"
                                                         width={500}
@@ -84,7 +84,7 @@ const ProjectsArea = () => {
                                                         </div>
                                                         <div className="icon-area">
                                                             <a href="#">
-                                                                <Image
+                                                                <img 
                                                                     src="/assets/images/service/icons/13.svg"
                                                                     alt=""
                                                                     width={24}
@@ -100,7 +100,7 @@ const ProjectsArea = () => {
                                         <SwiperSlide>
                                             <div className="single-project-area-5">
                                                 <a href="#" className="thumbnail">
-                                                    <Image
+                                                    <img 
                                                         src="/assets/images/case-studies/16.webp"
                                                         alt="case-studies"
                                                         width={500}
@@ -117,7 +117,7 @@ const ProjectsArea = () => {
                                                         </div>
                                                         <div className="icon-area">
                                                             <a href="#">
-                                                                <Image
+                                                                <img 
                                                                     src="/assets/images/service/icons/13.svg"
                                                                     alt=""
                                                                     width={24}
@@ -133,7 +133,7 @@ const ProjectsArea = () => {
                                         <SwiperSlide>
                                             <div className="single-project-area-5">
                                                 <a href="#" className="thumbnail">
-                                                    <Image
+                                                    <img 
                                                         src="/assets/images/case-studies/17.webp"
                                                         alt="case-studies"
                                                         width={500}
@@ -150,7 +150,7 @@ const ProjectsArea = () => {
                                                         </div>
                                                         <div className="icon-area">
                                                             <a href="#">
-                                                                <Image
+                                                                <img 
                                                                     src="/assets/images/service/icons/13.svg"
                                                                     alt=""
                                                                     width={24}
@@ -166,7 +166,7 @@ const ProjectsArea = () => {
                                         <SwiperSlide>
                                             <div className="single-project-area-5">
                                                 <a href="#" className="thumbnail">
-                                                    <Image
+                                                    <img 
                                                         src="/assets/images/case-studies/17.webp"
                                                         alt="case-studies"
                                                         width={500}
@@ -183,7 +183,7 @@ const ProjectsArea = () => {
                                                         </div>
                                                         <div className="icon-area">
                                                             <a href="#">
-                                                                <Image
+                                                                <img 
                                                                     src="/assets/images/service/icons/13.svg"
                                                                     alt=""
                                                                     width={24}

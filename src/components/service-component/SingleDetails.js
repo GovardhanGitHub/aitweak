@@ -60,7 +60,7 @@ function SingleDetails() {
           <div className="row g-5">
             <div className="col-lg-6">
               <div className="thumbnail-area-large-service-detaile-mid jarallax jara-mask-1">
-                <Image
+                <img 
                   className="jarallax-img"
                   src="/assets/images/service/07.webp"
                   alt={`${service.title} implementation`}
@@ -72,7 +72,7 @@ function SingleDetails() {
             </div>
             <div className="col-lg-6">
               <div className="thumbnail-area-large-service-detaile-mid jarallax jara-mask-1">
-                <Image
+                <img 
                   className="jarallax-img"
                   src="/assets/images/service/08.webp"
                   alt={`${service.title} solutions`}
@@ -113,7 +113,7 @@ function SingleDetails() {
                 <div key={relatedService.id} className="col-lg-4 col-md-6">
                   <div className="service-card">
                     <div className="icon">
-                      <Image
+                      <img 
                         src={`/${relatedService.icon}`}
                         alt={relatedService.title}
                         width={64}

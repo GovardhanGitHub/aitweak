@@ -24,7 +24,7 @@ export default function ServicesPage() {
                         <div key={service.id} className="col-lg-4 col-md-6 col-sm-12">
                             <div className="service-card-alpha">
                                 <div className="icon">
-                                    <Image src={`/${service.icon.replace(/^\//, '')}`} alt={service.title} width={64} height={64} unoptimized />
+                                    <img src={`/${service.icon.replace(/^\//, '')}`} alt={service.title} width={64} height={64} unoptimized />
                                 </div>
                                 <div className="content">
                                     <h4 className="title">

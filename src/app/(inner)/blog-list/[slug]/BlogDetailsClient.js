@@ -1,5 +1,6 @@
 "use client"
 import { useState } from "react";
+import Image from 'next/image';
 import HeaderTwo from "@/components/header/HeaderTwo";
 import BackToTop from "@/components/common/BackToTop";
 import FooterOne from "@/components/footer/FooterOne";
@@ -60,8 +61,7 @@ export default function BlogDetailsClient({ blogPost }) {
                 {/* single post */}
                 <div className="blog-single-post-listing details mb--0">
                   <div className="thumbnail">
-                    <img src={`${blogPost.bannerImg}`}
-                      alt={blogPost.title} />
+                    <img src={blogPost.bannerImg} alt={blogPost.title} width={800} height={400} />
                   </div>
                   <div className="blog-listing-content">
                     <div className="user-info">
@@ -131,17 +131,21 @@ export default function BlogDetailsClient({ blogPost }) {
                     <div className="row g-5">
                       <div className="col-lg-6 col-md-6">
                         <div className="thumbnail details">
-                          <img
+                          <img 
                             src="/assets/images/blog/d-lg-01.jpg"
                             alt="elevae construction"
+                            width={800}
+                            height={400}
                           />
                         </div>
                       </div>
                       <div className="col-lg-6 col-md-6">
                         <div className="thumbnail details">
-                          <img
+                          <img 
                             src="/assets/images/blog/d-lg-02.jpg"
                             alt="elevae construction"
+                            width={800}
+                            height={400}
                           />
                         </div>
                       </div>
@@ -159,9 +163,11 @@ export default function BlogDetailsClient({ blogPost }) {
                     <div className="row align-items-center">
                       <div className="col-lg-5">
                         <div className="thumbnail details mb_sm--15">
-                          <img
+                          <img 
                             src="/assets/images/blog/details/03.jpg"
                             alt="elevate"
+                            width={800}
+                            height={400}
                           />
                         </div>
                       </div>
@@ -239,10 +245,7 @@ export default function BlogDetailsClient({ blogPost }) {
                     </div>
                     <div className="author-area">
                       <div className="thumbnail details mb_sm--15">
-                        <img
-                          src="/assets/images/blog/details/author.jpg"
-                          alt="finbiz_buseness"
-                        />
+                        <img src="/assets/images/blog/details/author.jpg" alt="finbiz_buseness" width={80} height={80} />
                       </div>
                       <div className="author-details team">
                         <span className="desig">Brand Designer</span>
@@ -395,7 +398,7 @@ export default function BlogDetailsClient({ blogPost }) {
                     <div className="recent-post-single">
                       <div className="thumbnail">
                         <a href="#">
-                          <img src="/assets/images/blog/sm/01.jpg" alt="Blog_post" />
+                          <img src="/assets/images/blog/sm/01.jpg" alt="Blog_post" width={80} height={80} />
                         </a>
                       </div>
                       <div className="content-area">
@@ -415,7 +418,7 @@ export default function BlogDetailsClient({ blogPost }) {
                     <div className="recent-post-single">
                       <div className="thumbnail">
                         <a href="#">
-                          <img src="/assets/images/blog/sm/02.jpg" alt="Blog_post" />
+                          <img src="/assets/images/blog/sm/02.jpg" alt="Blog_post" width={80} height={80} />
                         </a>
                       </div>
                       <div className="content-area">
@@ -435,7 +438,7 @@ export default function BlogDetailsClient({ blogPost }) {
                     <div className="recent-post-single">
                       <div className="thumbnail">
                         <a href="#">
-                          <img src="/assets/images/blog/sm/03.jpg" alt="Blog_post" />
+                          <img src="/assets/images/blog/sm/03.jpg" alt="Blog_post" width={80} height={80} />
                         </a>
                       </div>
                       <div className="content-area">
@@ -463,24 +466,24 @@ export default function BlogDetailsClient({ blogPost }) {
                     <div className="gallery-inner">
                       <div className="row-1 single-row">
                         <a href="#">
-                          <img src="/assets/images/blog/sm/04.jpg" alt="Gallery" />
+                          <img src="/assets/images/blog/sm/04.jpg" alt="Gallery" width={80} height={80} />
                         </a>
                         <a href="#">
-                          <img src="/assets/images/blog/sm/05.jpg" alt="Gallery" />
+                          <img src="/assets/images/blog/sm/05.jpg" alt="Gallery" width={80} height={80} />
                         </a>
                         <a href="#">
-                          <img src="/assets/images/blog/sm/06.jpg" alt="Gallery" />
+                          <img src="/assets/images/blog/sm/06.jpg" alt="Gallery" width={80} height={80} />
                         </a>
                       </div>
                       <div className="row-2 single-row">
                         <a href="#">
-                          <img src="/assets/images/blog/sm/07.jpg" alt="Gallery" />
+                          <img src="/assets/images/blog/sm/07.jpg" alt="Gallery" width={80} height={80} />
                         </a>
                         <a href="#">
-                          <img src="/assets/images/blog/sm/08.jpg" alt="Gallery" />
+                          <img src="/assets/images/blog/sm/08.jpg" alt="Gallery" width={80} height={80} />
                         </a>
                         <a href="#">
-                          <img src="/assets/images/blog/sm/09.jpg" alt="Gallery" />
+                          <img src="/assets/images/blog/sm/09.jpg" alt="Gallery" width={80} height={80} />
                         </a>
                       </div>
                     </div>
@@ -513,8 +516,6 @@ export default function BlogDetailsClient({ blogPost }) {
           </div>
         </div>
       </>
-
-
 
 
       <FooterOne />

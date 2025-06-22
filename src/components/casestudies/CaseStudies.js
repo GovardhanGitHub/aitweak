@@ -8,7 +8,7 @@ function CaseStudies() {
     <div>
       <div className="case-studies-area rts-section-gap position-relative">
         <div className="shape-left-top">
-          <Image
+          <img 
             className="wow move-right"
             src="/assets/images/video/shape/03.png"
             alt="shape"
@@ -17,7 +17,7 @@ function CaseStudies() {
           />
         </div>
         <div className="shape-bottom">
-          <Image
+          <img 
             src="/assets/images/video/shape/02.png"
             alt=""
             className="wow move-left"
@@ -41,7 +41,7 @@ function CaseStudies() {
             >
               <div className="single-case-studies">
                 <div className="thumbnail">
-                  <Image
+                  <img 
                     loading="lazy"
                     rel="preload"
                     src="assets/images/case-studies/01.webp"
@@ -64,7 +64,7 @@ function CaseStudies() {
             >
               <div className="single-case-studies">
                 <div className="thumbnail">
-                  <Image
+                  <img 
                     loading="lazy"
                     rel="preload"
                     src="assets/images/case-studies/02.webp"
@@ -87,7 +87,7 @@ function CaseStudies() {
             >
               <div className="single-case-studies">
                 <div className="thumbnail">
-                  <Image
+                  <img 
                     loading="lazy"
                     rel="preload"
                     src="assets/images/case-studies/03.webp"
@@ -110,7 +110,7 @@ function CaseStudies() {
             >
               <div className="single-case-studies">
                 <div className="thumbnail">
-                  <Image
+                  <img 
                     loading="lazy"
                     rel="preload"
                     src="assets/images/case-studies/04.webp"
@@ -136,7 +136,7 @@ function CaseStudies() {
                 className="rts-btn btn-border more-project-btn"
               >
                 Explore More AI Solutions
-                <Image
+                <img 
                   loading="lazy"
                   src="/assets/images/service/icons/13.svg"
                   alt="arrow"

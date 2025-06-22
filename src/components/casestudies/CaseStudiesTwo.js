@@ -73,7 +73,7 @@ const CaseStudiesTwo = () => {
                                         <SwiperSlide key={index}>
                                             <div className="single-case-studies style-swiper">
                                                 <a href={study.link} className="thumbnail">
-                                                    <Image src={`/${study.imgSrc.replace(/^\//, '')}`} alt="image" width={500} height={300} />
+                                                    <img src={`/${study.imgSrc.replace(/^\//, '')}`} alt="image" width={500} height={300} />
                                                 </a>
                                                 <div className="inner-content">
                                                     <span>{study.category}</span>

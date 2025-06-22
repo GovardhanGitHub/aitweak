@@ -1,11 +1,12 @@
 "use client"
+import Image from 'next/image';
 
 const BlogGridMain = (props) => {
     const { Slug, blogImage, blogTitle } = props;
     return (
         <div>
             <a href={`/blog-grid/${Slug}`} className="thumbnail">
-                <img src={`/assets/images/blog/${blogImage}`} alt="blog_iamge" />
+                <img src={`/assets/images/blog/${blogImage}`} alt="blog_iamge" width={400} height={250} />
             </a>
             <div className="inner-content-area">
                 <div className="top-area">
@@ -20,7 +21,7 @@ const BlogGridMain = (props) => {
                         colleagues and impress your managers?
                     </p>
                     <div className="bottom-author-area">
-                        <img src="assets/images/testimonials/01.png" alt="author" />
+                        <img src="/assets/images/testimonials/01.png" alt="author" width={40} height={40} />
                         <div className="author-area-info">
                             <h6 className="title">Marcus Freeman</h6>
                             <span>24 Sept 2024</span>

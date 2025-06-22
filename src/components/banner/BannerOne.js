@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Rellax from "rellax";
 import AOS from "aos";
 import { ReactSVG } from "react-svg";
+import Image from "next/image";
 import "aos/dist/aos.css";
 
 function BannerOne() {
@@ -75,36 +76,44 @@ function BannerOne() {
                   className="left-image mt--120 mt_sm--70 jara-mask-1"
                   data-speed=".7"
                 >
-                  <img
+                  <img 
                     loading="lazy"
                     rel="preload"
                     className="jarallax-img rellax"
-                    src="assets/images/gimages/pexels-googledeepmind-25626508.jpg"
+                    src="/assets/images/gimages/pexels-googledeepmind-25626508.jpg"
+                    width={600}
+                    height={400}
                     alt="AI Neural Networks and Deep Learning Technology"
                   />
                 </div>
                 <div className="left-image jara-mask-1" data-speed=".7">
-                  <img
+                  <img 
                     loading="lazy"
                     rel="preload"
                     className="jarallax-img rellax"
-                    src="assets/images/gimages/chess_robot.jpg"
+                    src="/assets/images/gimages/chess_robot.jpg"
+                    width={600}
+                    height={400}
                     alt="AI Robotics and Intelligent Automation"
                   />
                 </div>
 
                 <div className="shape-image">
-                  <img
+                  <img 
                     loading="lazy"
                     rel="preload"
-                    src="assets/images/banner/shape/01.png"
+                    src="/assets/images/banner/shape/01.png"
+                    width={600}
+                    height={400}
                     alt="AI circuit pattern shape"
                     className="one wow move-left"
                   />
-                  <img
+                  <img 
                     loading="lazy"
                     rel="preload"
-                    src="assets/images/banner/shape/02.png"
+                    src="/assets/images/banner/shape/02.png"
+                    width={600}
+                    height={400}
                     alt="AI technology shape"
                     className="two wow move-left"
                   />

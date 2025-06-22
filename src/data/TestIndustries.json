@@ -1,0 +1,28 @@
+{
+  "industries": [
+    {
+      "id": 1,
+      "title": "Healthcare",
+      "slug": "/industries/healthcare-industry",
+      "description": "Transform lives with AI-powered diagnostics, drug discovery, and personalized patient care."
+    },
+    {
+      "id": 2,
+      "title": "Financial Services",
+      "slug": "/industries/fintech-industry",
+      "description": "Secure and grow wealth with AI for fraud detection, algorithmic trading, and risk management."
+    },
+    {
+      "id": 3,
+      "title": "Manufacturing",
+      "slug": "/industries/manufacturing-industry",
+      "description": "Build smarter factories with AI for predictive maintenance, quality automation, and efficiency."
+    },
+    {
+      "id": 4,
+      "title": "Retail & E-Commerce",
+      "slug": "/industries/ecommerce-industry",
+      "description": "Skyrocket sales with AI-driven personalization, inventory optimization, and customer insights."
+    }
+  ]
+}

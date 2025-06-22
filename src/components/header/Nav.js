@@ -10,13 +10,13 @@ function Nav() {
 
   // Split services into three columns
   const coreServices = aiServices.filter(
-    (service) => service.category === "core"
+    (service) => service.category === "core",
   );
   const advancedServices = aiServices.filter(
-    (service) => service.category === "advanced"
+    (service) => service.category === "advanced",
   );
   const specializedServices = aiServices.filter(
-    (service) => service.category === "specialized"
+    (service) => service.category === "specialized",
   );
 
   // Split industries into two columns for better presentation
@@ -61,7 +61,7 @@ function Nav() {
                               href={`/services/${service.slug}`}
                             >
                               <div className="icon">
-                                <Image
+                                <img
                                   src={`/${service.icon}`}
                                   alt={service.title}
                                   width={40}
@@ -91,7 +91,7 @@ function Nav() {
                               href={`/services/${service.slug}`}
                             >
                               <div className="icon">
-                                <Image
+                                <img
                                   src={`/${service.icon}`}
                                   alt={service.title}
                                   width={40}
@@ -121,7 +121,7 @@ function Nav() {
                               href={`/services/${service.slug}`}
                             >
                               <div className="icon">
-                                <Image
+                                <img
                                   src={`/${service.icon}`}
                                   alt={service.title}
                                   width={40}
@@ -147,9 +147,15 @@ function Nav() {
                         {industries.map((industry) => (
                           <li key={industry.id}>
                             <Link className="industries" href={industry.slug}>
-                              <ReactSVG
-                                src={industry.icon}
-                                aria-label={industry.title}
+                              <img
+                                src={`/${industry.icon}`}
+                                alt={industry.title}
+                                width={24}
+                                height={24}
+                                style={{
+                                  marginRight: 8,
+                                  verticalAlign: "middle",
+                                }}
                               />
                               {industry.title}
                             </Link>
@@ -163,9 +169,7 @@ function Nav() {
             </li>
 
             <li>
-              <Link href="/blog-grid">
-                Blogs
-              </Link>
+              <Link href="/blog-grid">Blogs</Link>
             </li>
 
             <li>
